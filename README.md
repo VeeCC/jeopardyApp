@@ -1,37 +1,17 @@
-## Welcome to GitHub Pages
+##Jeopardy App
 
-You can use the [editor on GitHub](https://github.com/VeeCC/jeopardyApp/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
+###Game rules
 ```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+- Two teams
+- Decide which team goes first before entering team name
+- Enter team names with the decided order
+- Pick questions from game board, once question is revealed, the team has 30 seconds to answer
+- If answer is correct, the team earns points
+- If answer is wrong or time's up, no penalty, yet aonther team can choose to steal the question of pass
+- If another team chooses to steal the question, the team has 10 seconds to answer the question
+- If answer is wrong or time's up, points will be taken (this is the only scenerio that points will be taken)
+- No implementation for now to deal with a tie game. 
 ```
 
+
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/VeeCC/jeopardyApp/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
