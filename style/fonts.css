@@ -1,0 +1,19 @@
+@font-face {
+    font-family: cartoon;
+    src: url('../assets/fonts/cartoon.ttf');
+}
+
+@font-face {
+    font-family: journal;
+    src: url('../assets/fonts/journal.ttf');
+}
+
+@font-face {
+    font-family: seaFont;
+    src: url('../assets/fonts/SEA.ttf');
+}
+
+@font-face {
+    font-family: strawberry;
+    src: url('../assets/fonts/Strawberry.ttf');
+}
