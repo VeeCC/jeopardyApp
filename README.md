@@ -1,6 +1,6 @@
-##Jeopardy App
+## Jeopardy App
 
-###Game rules
+### Game rules
 ```markdown
 - Two teams
 - Decide which team goes first before entering team name
