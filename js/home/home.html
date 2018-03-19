@@ -1,2 +1,10 @@
-<p>home</p>
-<div ng-click="$ctrl.startGame()">start</div>
+<div class="home" ng-if="!$ctrl.atContent">
+    {{$ctrl.title}}
+    <div class="jButton" ng-click="$ctrl.setTeamName()">START</div>
+</div>
+<div ng-if="$ctrl.atContent">
+    <div ng-repeat="t in $ctrl.teams" class="teamName">
+        Team Name: <input type="text" class="lineInput" ng-model="t.name"/>
+    </div>
+    <div class="jButton" ng-click="$ctrl.startGame()">SAVE</div>
+</div>
