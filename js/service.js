@@ -23,7 +23,7 @@ function centralService($http,$q) {
     service.getQuestion = function(idx) {
         return $http({
             method: 'get',
-            url: '/data/category'+idx+'.json'
+            url: 'data/category'+idx+'.json'
         });
     };
     

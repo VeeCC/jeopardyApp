@@ -54,15 +54,15 @@ body {
 }
 
 .gameboard {
-    width: 860px;
-    height: 100%;
-    margin: 0 auto;
-    padding-top: 90px;
+    width: 840px;
+    position: relative;
+    left: 420px;
+    top: 50px;
 }
 
 .categoryNames {
     width: 100%;
-    height: 110px;
+    height: 90px;
     text-align: center;
 }
 
@@ -78,7 +78,7 @@ body {
 
 .column {
     float: left;
-    width: 152px;
+    width: 140px;
     margin: 10px;
 }
 
@@ -86,37 +86,43 @@ body {
     cursor: pointer;
     margin-bottom: 16px;
     font-family: raleway;
-    font-size: 32px;
+    font-size: 28px;
     background: rgba(177,203,187,0.85);
     
 }
 
 .card {
-    width: 152px;
-    height: 90px;
+    width: 140px;
+    height: 78px;
     background: rgba(97,134,133,0.85);
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.6);
     transition: 0.3s;
     text-align: center;
-    padding: 22px;
-    font-size: 22px;
+    padding: 18px;
+    font-size: 18px;
     font-family: ralewayBold;
 }
 
 .column .card:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
+    background: rgba(177,203,187,0.95);
 }
 
 .teamInfo {
-    float: left;
-    width: 360px;
+    width: 313px;
     height: 110px;
     text-align: center;
     font-size: 2em;
     font-family: orangejuice;
-    margin: 30px;
+    margin-bottom: 60px;;
     background: url('../assets/images/blackboard.png');
     border: 3px solid #cccccc;
 }
 
 
+
+.side {
+    position: absolute;
+    left: 20px;
+    top: 60px;
+}
