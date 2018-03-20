@@ -3,7 +3,7 @@ jeopardyApp.service('centralService', centralService);
 centralService.$inject = ['$http','$q'];
 function centralService($http,$q) {
     var service = this;
-    var teams = {};
+    var teams = [];
     var settings = {};
     
     service.setTeams = function(_ts){
@@ -14,9 +14,9 @@ function centralService($http,$q) {
         return teams;
     };
     
-    service.setTeamScore = function(teamName, score) {
-        if(teams[teamName]){
-            teams[teamName].score = score;
+    service.setTeamScore = function(order, score) {
+        if(order < teams.length && order >= 0) {
+            teams[order].score = score;
         }
     };
     

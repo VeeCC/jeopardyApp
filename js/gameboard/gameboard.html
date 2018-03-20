@@ -5,7 +5,16 @@
         </div>
     </div>
     <div class="questions">
-        <div ng-repeat="c in $ctrl.categoryNames" class="column">
+        <div ng-repeat="con in $ctrl.content" class="column">
+            <div ng-repeat="q in con.questions" class="card" ng-click="$ctrl.showQuestion(q)">
+            {{q.points}}
+            </div>
+        </div>
+    </div>
+    <div>
+        <div ng-repeat="t in $ctrl.teams" class="teamInfo">
+            <span>{{t.name}}</span>
+            <div>{{t.score}}</div>
         </div>
     </div>
 </div>

@@ -5,7 +5,7 @@ function homeController($state,centralService) {
     var ctrl = this;
     
     ctrl.atContent = false;
-    ctrl.teams = [{name: ""},{name: ""}];
+    ctrl.teams = [{name: "Knows Everything"},{name: "Never Win"}];
     
     ctrl.$onInit = function() {
         ctrl.title = centralService.getTitle()||"Jeopardy";
@@ -16,11 +16,7 @@ function homeController($state,centralService) {
     };
     
     ctrl.startGame = function() {
-        var teams = ctrl.teams.map(t => {
-            var o = {};
-            o[t.name] = 0;
-            return o;
-        });
+        var teams = ctrl.teams.map(t => ({name: t.name, score: 0}));
         centralService.setTeams(teams);
         $state.go('gameboard');
     }

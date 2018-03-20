@@ -84,22 +84,39 @@ body {
 
 .column .card {
     cursor: pointer;
+    margin-bottom: 16px;
+    font-family: raleway;
+    font-size: 32px;
+    background: rgba(177,203,187,0.85);
+    
 }
 
 .card {
     width: 152px;
     height: 90px;
-    background: rgba(97,134,133,0.8);
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
+    background: rgba(97,134,133,0.85);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.6);
     transition: 0.3s;
     text-align: center;
-    padding: 20px;
+    padding: 22px;
     font-size: 22px;
     font-family: ralewayBold;
 }
 
-.card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5);
+.column .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
+}
+
+.teamInfo {
+    float: left;
+    width: 360px;
+    height: 110px;
+    text-align: center;
+    font-size: 2em;
+    font-family: orangejuice;
+    margin: 30px;
+    background: url('../assets/images/blackboard.png');
+    border: 3px solid #cccccc;
 }
 
 
