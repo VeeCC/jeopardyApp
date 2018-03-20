@@ -10,8 +10,7 @@ function routesConfig($stateProvider, $urlRouterProvider){
     
     var states = [
         {name: 'home', component: 'home', url: '/home'},
-        {name: 'gameboard', component: 'gameboard', url: '/gameboard'},
-        {name: 'question', component: 'question', url: '/question'}
+        {name: 'gameboard', component: 'gameboard', url: '/gameboard'}
     ];
     states.forEach(s => { $stateProvider.state(s);});
 };
@@ -26,7 +25,12 @@ jeopardyApp.component('gameboard', {
 });
 jeopardyApp.component('question', {
     templateUrl: 'js/question/question.html',
-    controller: 'questionController'
+    controller: 'questionController',
+    bind: {
+        question: "<",
+        team: "<",
+        finishQuestion: "&"
+    }
 });
 
 jeopardyApp.run(function(centralService,$http){

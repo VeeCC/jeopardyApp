@@ -5,10 +5,10 @@ function homeController($state,centralService) {
     var ctrl = this;
     
     ctrl.atContent = false;
-    ctrl.teams = [{name: "Knows Everything"},{name: "Never Win"}];
     
     ctrl.$onInit = function() {
         ctrl.title = centralService.getTitle()||"Jeopardy";
+        ctrl.teams = centralService.getTeams();
     };
     
     ctrl.setTeamName = function() {

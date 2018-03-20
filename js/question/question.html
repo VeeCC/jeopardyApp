@@ -1,1 +1,16 @@
-<div class="jButton" style="margin: 0 auto" ng-click="$ctrl.finishQuestion()">Finish</div>
+<div>
+    <span>{{$ctrl.question.category}}</span>
+    <span>{{$ctrl.question.points}}</span>
+</div>
+
+<div>{{$ctrl.question.question}}</div>
+<div>
+    <div ng-repeat="o in $ctrl.question.options" ng-click="$ctrl.answer(o.points)">{{o}}</div>
+</div>
+
+<div ng-if="$ctrl.tempEndGame">
+    <span ng-click="$ctrl.decide('steal')">STEAL </span> 
+    or 
+    <span ng-click="$ctrl.decide('pass')">PASS</span>
+    <!-- close button -->
+</div>

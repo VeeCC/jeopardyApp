@@ -1,4 +1,4 @@
-<div class="gameboard">
+<div class="gameboard" ng-if="!$ctrl.currentQuestion">
     <div class="categoryNames">
         <div ng-repeat="c in $ctrl.content" class="card">
             {{c.name}}
@@ -7,11 +7,13 @@
     <div class="questions">
         <div ng-repeat="con in $ctrl.content" class="column">
             <div ng-repeat="q in con.questions" class="card" ng-click="$ctrl.showQuestion(q)">
-            {{q.points}}
+            <span ng-show="!q.answered">{{q.points}}</span>
             </div>
         </div>
     </div>
 </div>
+<question class="gameboard" ng-if="$ctrl.currentQuestion" question="$ctrl.currentQuestion" 
+          team="$ctrl.teamOnPlay" finish-question="$ctrl.finishQuestion()"></question>
 
 <div class="side">
     <div ng-repeat="t in $ctrl.teams" class="teamInfo">

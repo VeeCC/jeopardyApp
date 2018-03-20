@@ -5,6 +5,8 @@
     "category4": "Music",
     "category5": "Math",
     "category6": "Misc",
-    "games": [1,2,3,4,5],
-    "title": "Jeopardy Game"
+    "games": [1,2,3,4,5,6],
+    "title": "Jeopardy Game",
+    "team1": "Knows everything",
+    "team2": "Never win, never give up"
 }
