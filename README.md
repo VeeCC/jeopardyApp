@@ -13,5 +13,6 @@
 - No implementation for now to deal with a tie game. 
 ```
 
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+### demo 
+[jeopardy game demo](https://veecc.github.io/jeopardyApp/).
+[GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).

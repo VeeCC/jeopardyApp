@@ -28,7 +28,7 @@
             {"option": "Orange", "points": 0},
             {"option": "Gray", "points": 0},
             {"option": "Green", "points": 0},
-            {"option": "Blue", "points": 300},
+            {"option": "Blue", "points": 300}
         ],
         "points": 300
     },

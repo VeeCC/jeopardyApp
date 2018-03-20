@@ -27,7 +27,7 @@
             {"option": "Qing", "points": 0},
             {"option": "Tang", "points": 0},
             {"option": "Yuan", "points": 0},
-            {"option": "Ming", "points": 300},
+            {"option": "Ming", "points": 300}
         ],
         "points": 300
     },
@@ -43,7 +43,7 @@
         "points": 200
     },
     {
-        "question": "In what year was hong kong returned to china",
+        "question": "In what year was hong kong returned to China",
         "answer": [
             {"option": "1999", "points": 0},
             {"option": "1988", "points": 0},

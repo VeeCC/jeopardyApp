@@ -31,9 +31,9 @@ function centralService($http,$q) {
         var deferred = $q.defer();
         var urlcalls = settings.games.map(ele => (service.getQuestion(ele)));
         $q.all(urlcalls).then(function(res){
-           deferred.resolve(); 
+           deferred.resolve(res); 
         },function(error){
-            deferred.reject();
+            deferred.reject(error);
         });
         return deferred.promise;
     };
