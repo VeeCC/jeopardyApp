@@ -29,3 +29,11 @@ jeopardyApp.component('question', {
     controller: 'questionController'
 });
 
+jeopardyApp.run(function(centralService,$http){
+    $http.get('../data/settings.json').then(function(res){
+        centralService.setSettings(res.data); 
+    },function(err){
+        
+    });
+});
+

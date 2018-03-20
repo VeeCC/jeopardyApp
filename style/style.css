@@ -7,6 +7,11 @@ html, body {
     margin: 0;
 }
 
+body {
+    background: #515151 url('../assets/images/7.rawpixel-com-567028-unsplash.jpg') no-repeat center top;
+    color: white;
+}
+
 .home {
     width: 100%;
     height: 100%;
@@ -15,16 +20,14 @@ html, body {
     text-align: center;
     font-family: cartoon;
     font-size: 5em;
-    color: white;
-    background: #282828 no-repeat center top;
+    background: #515151 url('../assets/images/1.samuel-scrimshaw-76647-unsplash.jpg') no-repeat center top;
 }
 
 .jButton {
     width: 180px;
     height: 80px;
     border: 2px solid white;
-    color: white;
-    font-family: strawberry;
+    font-family: latoHairline;
     font-size: 40px;
     text-align: center;
     padding-top: 16px;
@@ -34,10 +37,9 @@ html, body {
 
 .teamName {
     width: 700px;
-    font-size: 2em;
-    font-family: strawberry;
-    color: white;
-    margin: 60px auto;
+    font-size: 3em;
+    font-family: orangejuice;
+    margin: 100px auto;
 }
 
 .lineInput {
@@ -45,8 +47,41 @@ html, body {
     border: none;
     border-bottom: 2px solid white;
     width: 400px;
+    margin-left: 26px;
     color: inherit;
     font-family: inherit;
     font-size: inherit;
 }
+
+
+.categoryNames {
+    width: 860px;
+    height: 210px;
+    margin: 0 auto;
+    padding-top: 90px;
+    text-align: center;
+}
+
+.categoryNames div
+{
+    float: left;
+}
+
+.card {
+    width: 152px;
+    height: 90px;
+    background: #618685;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
+    transition: 0.3s;
+    margin: 10px;
+    text-align: center;
+    padding: 20px;
+    font-size: 22px;
+    font-family: ralewayBold;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5);
+}
+
 

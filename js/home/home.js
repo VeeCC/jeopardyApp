@@ -4,9 +4,12 @@ homeController.$inject = ['$state','centralService'];
 function homeController($state,centralService) {
     var ctrl = this;
     
-    ctrl.title = "Jeopardy";
     ctrl.atContent = false;
     ctrl.teams = [{name: ""},{name: ""}];
+    
+    ctrl.$onInit = function() {
+        ctrl.title = centralService.getTitle()||"Jeopardy";
+    };
     
     ctrl.setTeamName = function() {
         ctrl.atContent = true;    

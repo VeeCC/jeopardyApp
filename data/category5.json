@@ -1,0 +1,56 @@
+[
+    {
+        "question": "Which color has the shortest wavelength?",
+        "answer": [
+            {"option": "Violet", "points": 500},
+            {"option": "Red", "points": 0},
+            {"option": "Blue", "points": 0},
+            {"option": "Yellow", "points": 0},
+            {"option": "Green", "points": 0}
+        ],
+        "points": 500
+    },
+    {
+        "question": "Which color has the longest wavelength?",
+        "answer": [
+            {"option": "Violet", "points": 0},
+            {"option": "Blue", "points": 0},
+            {"option": "Yellow", "points": 0},
+            {"option": "Red", "points": 400},
+            {"option": "Green", "points": 0}
+        ],
+        "points": 400
+    },
+    {
+        "question": "Which color attracts black flies the most?",
+        "answer": [
+            {"option": "Purple", "points": 0},
+            {"option": "Orange", "points": 0},
+            {"option": "Gray", "points": 0},
+            {"option": "Green", "points": 0},
+            {"option": "Blue", "points": 300},
+        ],
+        "points": 300
+    },
+    {
+        "question": "For a candle flame, what color of flame is the hottest?",
+        "answer": [
+            {"option": "Red", "points": 0},
+            {"option": "Orange", "points": 0},
+            {"option": "Yellow", "points": 0},
+            {"option": "Blue", "points": 200}
+        ],
+        "points": 200
+    },
+    {
+        "question": "which color is considered to be an appetite suppressant?",
+        "answer": [
+            {"option": "Black", "points": 0},
+            {"option": "Red", "points": 0},
+            {"option": "Blue", "points": 100},
+            {"option": "Yellow", "points": 0},
+            {"option": "Pink", "points": 0}
+        ],
+        "points": 100
+    }
+]
