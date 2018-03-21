@@ -19,6 +19,8 @@
 
 ### Screenshots
 ![Home page](/assets/screenshots/home.PNG)
+![gameboard](/assets/screenshots/gameboard.PNG)
+![game](/assets/screenshots/game.PNG)
 
 ### Background Image credits
 1. Photo by Samuel Scrimshaw on Unsplash
