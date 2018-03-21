@@ -1,55 +1,54 @@
 [
     {
-        "question": "Which color has the shortest wavelength?",
+        "question": "Please pick an answer to complete movie name, Tomb ___",
         "answer": [
-            {"option": "Violet", "points": 500},
-            {"option": "Red", "points": 0},
-            {"option": "Blue", "points": 0},
-            {"option": "Yellow", "points": 0},
-            {"option": "Green", "points": 0}
+            {"option": "Raider", "points": 500},
+            {"option": "Rider", "points": 0},
+            {"option": "Raiders", "points": 0},
+            {"option": "Riders", "points": 0}
         ],
         "points": 500
     },
     {
-        "question": "Which color has the longest wavelength?",
+        "question": "Please pick an answer to complete movie name, The Shawshank ___",
         "answer": [
-            {"option": "Violet", "points": 0},
-            {"option": "Blue", "points": 0},
-            {"option": "Yellow", "points": 0},
-            {"option": "Red", "points": 400},
-            {"option": "Green", "points": 0}
+            {"option": "Atonement", "points": 0},
+            {"option": "Reparation", "points": 0},
+            {"option": "Salvation", "points": 0},
+            {"option": "Redemtion", "points": 400},
+            {"option": "Restitution", "points": 0}
         ],
         "points": 400
     },
     {
-        "question": "Which color attracts black flies the most?",
+        "question": "Please pick an answer to complete movie name, Schindler's ___",
         "answer": [
-            {"option": "Purple", "points": 0},
-            {"option": "Orange", "points": 0},
-            {"option": "Gray", "points": 0},
-            {"option": "Green", "points": 0},
-            {"option": "Blue", "points": 300}
+            {"option": "Index", "points": 0},
+            {"option": "Schedule", "points": 0},
+            {"option": "Lost", "points": 0},
+            {"option": "Catalog", "points": 0},
+            {"option": "List", "points": 300}
         ],
         "points": 300
     },
     {
-        "question": "For a candle flame, what color of flame is the hottest?",
+        "question": "Please pick an answer to complete movie name, Ocean's ___",
         "answer": [
-            {"option": "Red", "points": 0},
-            {"option": "Orange", "points": 0},
-            {"option": "Yellow", "points": 0},
-            {"option": "Blue", "points": 200}
+            {"option": "Elevan", "points": 0},
+            {"option": "Ten", "points": 0},
+            {"option": "Twenty", "points": 0},
+            {"option": "Twelve", "points": 200}
         ],
         "points": 200
     },
     {
-        "question": "which color is considered to be an appetite suppressant?",
+        "question": "Please pick an answer to complete movie name, The Lion ___",
         "answer": [
-            {"option": "Black", "points": 0},
-            {"option": "Red", "points": 0},
-            {"option": "Blue", "points": 100},
-            {"option": "Yellow", "points": 0},
-            {"option": "Pink", "points": 0}
+            {"option": "Queen", "points": 0},
+            {"option": "Keen", "points": 0},
+            {"option": "King 2", "points": 100},
+            {"option": "Kings", "points": 0},
+            {"option": "Mom", "points": 0}
         ],
         "points": 100
     }

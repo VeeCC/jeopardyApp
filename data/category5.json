@@ -1,55 +1,51 @@
 [
     {
-        "question": "Which color has the shortest wavelength?",
+        "question": "What is sin(A+B)",
         "answer": [
-            {"option": "Violet", "points": 500},
-            {"option": "Red", "points": 0},
-            {"option": "Blue", "points": 0},
-            {"option": "Yellow", "points": 0},
-            {"option": "Green", "points": 0}
+            {"option": "sinA cosB + cosA sinB", "points": 500},
+            {"option": "sinA cosB - cosA sinB", "points": 0},
+            {"option": "cosA cosB + cosA cosB", "points": 0},
+            {"option": "cosA cosB - cosA cosB", "points": 0}
         ],
         "points": 500
     },
     {
-        "question": "Which color has the longest wavelength?",
+        "question": "Continue this pattern 144, 121, 100, 81, 64",
         "answer": [
-            {"option": "Violet", "points": 0},
-            {"option": "Blue", "points": 0},
-            {"option": "Yellow", "points": 0},
-            {"option": "Red", "points": 400},
-            {"option": "Green", "points": 0}
+            {"option": "52", "points": 0},
+            {"option": "47", "points": 0},
+            {"option": "0", "points": 0},
+            {"option": "49", "points": 400}
         ],
         "points": 400
     },
     {
-        "question": "Which color attracts black flies the most?",
+        "question": "Solve this (32x8) + 104 -27?",
         "answer": [
-            {"option": "Purple", "points": 0},
-            {"option": "Orange", "points": 0},
-            {"option": "Gray", "points": 0},
-            {"option": "Green", "points": 0},
-            {"option": "Blue", "points": 300}
+            {"option": "232", "points": 0},
+            {"option": "331", "points": 0},
+            {"option": "342", "points": 0},
+            {"option": "343", "points": 0},
+            {"option": "333", "points": 300}
         ],
         "points": 300
     },
     {
-        "question": "For a candle flame, what color of flame is the hottest?",
+        "question": "Is 45 a prime number?",
         "answer": [
-            {"option": "Red", "points": 0},
-            {"option": "Orange", "points": 0},
-            {"option": "Yellow", "points": 0},
-            {"option": "Blue", "points": 200}
+            {"option": "Yes", "points": 0},
+            {"option": "No", "points": 200}
         ],
         "points": 200
     },
     {
-        "question": "which color is considered to be an appetite suppressant?",
+        "question": "What is 1 + 1?",
         "answer": [
-            {"option": "Black", "points": 0},
-            {"option": "Red", "points": 0},
-            {"option": "Blue", "points": 100},
-            {"option": "Yellow", "points": 0},
-            {"option": "Pink", "points": 0}
+            {"option": "0", "points": 0},
+            {"option": "0", "points": 0},
+            {"option": "2", "points": 100},
+            {"option": "0", "points": 0},
+            {"option": "0", "points": 0}
         ],
         "points": 100
     }

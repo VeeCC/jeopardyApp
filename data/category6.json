@@ -1,55 +1,54 @@
 [
     {
-        "question": "Which color has the shortest wavelength?",
+        "question": "Which U.S. state has the longest coastline?",
         "answer": [
-            {"option": "Violet", "points": 500},
-            {"option": "Red", "points": 0},
-            {"option": "Blue", "points": 0},
-            {"option": "Yellow", "points": 0},
-            {"option": "Green", "points": 0}
+            {"option": "Alaska", "points": 500},
+            {"option": "California", "points": 0},
+            {"option": "Floria", "points": 0},
+            {"option": "Texas", "points": 0},
+            {"option": "Washington", "points": 0}
         ],
         "points": 500
     },
     {
-        "question": "Which color has the longest wavelength?",
+        "question": "What is the longest river in the world?",
         "answer": [
-            {"option": "Violet", "points": 0},
-            {"option": "Blue", "points": 0},
-            {"option": "Yellow", "points": 0},
-            {"option": "Red", "points": 400},
-            {"option": "Green", "points": 0}
+            {"option": "Nile", "points": 0},
+            {"option": "Mississippi", "points": 0},
+            {"option": "Yellow River", "points": 0},
+            {"option": "Amazon", "points": 400},
+            {"option": "Blue Nile", "points": 0}
         ],
         "points": 400
     },
     {
-        "question": "Which color attracts black flies the most?",
+        "question": "How many holes are there in a full round of golf?",
         "answer": [
-            {"option": "Purple", "points": 0},
-            {"option": "Orange", "points": 0},
-            {"option": "Gray", "points": 0},
-            {"option": "Green", "points": 0},
-            {"option": "Blue", "points": 300}
+            {"option": "24", "points": 0},
+            {"option": "12", "points": 0},
+            {"option": "11", "points": 0},
+            {"option": "20", "points": 0},
+            {"option": "18", "points": 300}
         ],
         "points": 300
     },
     {
-        "question": "For a candle flame, what color of flame is the hottest?",
+        "question": "What kind of tree do acorns grow on?",
         "answer": [
-            {"option": "Red", "points": 0},
-            {"option": "Orange", "points": 0},
-            {"option": "Yellow", "points": 0},
-            {"option": "Blue", "points": 200}
+            {"option": "Alder", "points": 0},
+            {"option": "Pine", "points": 0},
+            {"option": "Maple", "points": 0},
+            {"option": "Oak", "points": 200}
         ],
         "points": 200
     },
     {
-        "question": "which color is considered to be an appetite suppressant?",
+        "question": "What's the best way to make other people talk to you",
         "answer": [
-            {"option": "Black", "points": 0},
-            {"option": "Red", "points": 0},
-            {"option": "Blue", "points": 100},
-            {"option": "Yellow", "points": 0},
-            {"option": "Pink", "points": 0}
+            {"option": "Dress up cool", "points": 0},
+            {"option": "Keep smiling", "points": 0},
+            {"option": "Walk a dog", "points": 100},
+            {"option": "Be a salesman", "points": 0}
         ],
         "points": 100
     }

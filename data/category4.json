@@ -1,55 +1,55 @@
 [
     {
-        "question": "I need a very very very long question, to check the layout and see if current space is enough.",
+        "question": "Which Rock and Roll star was only filmed from the waist up because his hips swinging was too suggestive?",
         "answer": [
-            {"option": "Violet", "points": 500},
-            {"option": "Red", "points": 0},
-            {"option": "Blue", "points": 0},
-            {"option": "Yellow", "points": 0},
-            {"option": "Green", "points": 0}
+            {"option": "Elvis Presley", "points": 500},
+            {"option": "John Lennon", "points": 0},
+            {"option": "Axl Rose", "points": 0},
+            {"option": "Johnny Cash", "points": 0},
+            {"option": "Joe Perry", "points": 0}
         ],
         "points": 500
     },
     {
-        "question": "Which color has the longest wavelength?",
+        "question": "Which was the first song to be performed in outer space?",
         "answer": [
-            {"option": "Violet", "points": 0},
-            {"option": "Blue", "points": 0},
-            {"option": "Yellow", "points": 0},
-            {"option": "Red", "points": 400},
-            {"option": "Green", "points": 0}
+            {"option": "Yellow Submarine", "points": 0},
+            {"option": "Mary had a little lamb", "points": 0},
+            {"option": "Amazing Grace", "points": 0},
+            {"option": "Happy Birthday", "points": 400},
+            {"option": "Mary Ann", "points": 0}
         ],
         "points": 400
     },
     {
-        "question": "Which color attracts black flies the most?",
+        "question": "How many sharps in E major?",
         "answer": [
-            {"option": "Purple", "points": 0},
-            {"option": "Orange", "points": 0},
-            {"option": "Gray", "points": 0},
-            {"option": "Green", "points": 0},
-            {"option": "Blue", "points": 300}
+            {"option": "Two", "points": 0},
+            {"option": "Zero", "points": 0},
+            {"option": "One", "points": 0},
+            {"option": "Five", "points": 0},
+            {"option": "Four", "points": 300}
         ],
         "points": 300
     },
     {
-        "question": "For a candle flame, what color of flame is the hottest?",
+        "question": "Which movie is \"Let It Go\" from?",
         "answer": [
-            {"option": "Red", "points": 0},
-            {"option": "Orange", "points": 0},
-            {"option": "Yellow", "points": 0},
-            {"option": "Blue", "points": 200}
+            {"option": "Zootopia", "points": 0},
+            {"option": "Toy Story", "points": 0},
+            {"option": "Coco", "points": 0},
+            {"option": "Frozen", "points": 200}
         ],
         "points": 200
     },
     {
-        "question": "which color is considered to be an appetite suppressant?",
+        "question": "Beethoven, Bach, Tchaikovsky and Vivaldi are part of which genre?",
         "answer": [
-            {"option": "Black", "points": 0},
-            {"option": "Red", "points": 0},
-            {"option": "Blue", "points": 100},
-            {"option": "Yellow", "points": 0},
-            {"option": "Pink", "points": 0}
+            {"option": "Pop", "points": 0},
+            {"option": "Rock", "points": 0},
+            {"option": "Classical", "points": 100},
+            {"option": "Soul", "points": 0},
+            {"option": "Jazz", "points": 0}
         ],
         "points": 100
     }
