@@ -16,7 +16,8 @@
           team="$ctrl.teamOnPlay" finish-question="$ctrl.finishQuestion()"></question>
 
 <div class="side">
-    <div ng-repeat="t in $ctrl.teams" class="teamInfo">
+    <div ng-repeat="t in $ctrl.teams" class="teamInfo"
+         ng-class="{'transparentTeamInfo':$ctrl.currentQuestion && $ctrl.teamOnPlay !== $index}">
         <span>{{t.name}}</span>
         <div>{{t.score}}</div>
     </div>

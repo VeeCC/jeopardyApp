@@ -1,22 +1,29 @@
 'use strict';
 jeopardyApp.controller("questionController", questionController);
-questionController.$inject = ['centralService'];
-function questionController(centralService) {
+questionController.$inject = ['centralService','$interval'];
+function questionController(centralService, $interval) {
     var ctrl = this;
     //ctrl.team
     //ctrl.question
     //ctrl.finishQuestion();
     ctrl.tempEndGame = false;
     ctrl.resultMessage = "";
+    ctrl.countDown = "";
+    ctrl.notime = false;
     var firstTry = true;
     var teamNames = [];
+    var timer;
     
     ctrl.$onInit = function(){
-        //45s timer start;
+        startTimer(45);
         teamNames = centralService.getTeams().map(t => t.name);
     };
     
     ctrl.answer = function(points){
+        if(timer){
+            $interval.cancel(timer);
+            timer = null;
+        }
         if(firstTry) {
             if(points){
                 centralService.addTeamScore(ctrl.team, points);
@@ -45,7 +52,7 @@ function questionController(centralService) {
         if(decision === "steal"){
             ctrl.tempEndGame = false;
             firstTry = false;
-            //start 15s timer;
+            startTimer(15);
         }else{
             ctrl.finishQuestion();
         }  
@@ -59,6 +66,21 @@ function questionController(centralService) {
         return !ctrl.team + 0;
     };
         
+    function startTimer(n) {
+        ctrl.countDown = n;
+        ctrl.notime = false;
+        timer = $interval(function(){
+            if(ctrl.countDown === 1) {
+                ctrl.notime = true;
+                ctrl.countDown = 0;
+                $interval.cancel(timer);
+                ctrl.answer(0);
+            }else{
+                ctrl.countDown -= 1;
+            }
+        },1000);
+    }
+    
     ctrl.goBack = function() {
         ctrl.tempEndGame = false;
     }
