@@ -1,5 +1,8 @@
 ## Jeopardy App
 
+### demo 
+[jeopardy game demo](https://veecc.github.io/jeopardyApp/).
+
 ### Game rules
 ```markdown
 - Two teams
@@ -14,6 +17,10 @@
 - No implementation for now to deal with a tie game. 
 ```
 
-### demo 
-[jeopardy game demo](https://veecc.github.io/jeopardyApp/).
+### Background Image credits
+1.Photo by Samuel Scrimshaw on Unsplash
+2.Photo by rawpixel.com on Unsplash
+
+
+### For myself :p
 [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
