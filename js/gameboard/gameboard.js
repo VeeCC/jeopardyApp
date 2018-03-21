@@ -36,6 +36,6 @@ function gameboardController($state,centralService) {
     
     ctrl.finishQuestion = function(){
         ctrl.currentQuestion = null;
-        ctrl.teamOnPlay = !ctrl.teamOnPaly + 0;
+        ctrl.teamOnPlay = !ctrl.teamOnPlay + 0;
     }
 };

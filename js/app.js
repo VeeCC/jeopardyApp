@@ -26,7 +26,7 @@ jeopardyApp.component('gameboard', {
 jeopardyApp.component('question', {
     templateUrl: 'js/question/question.html',
     controller: 'questionController',
-    bind: {
+    bindings: {
         question: "<",
         team: "<",
         finishQuestion: "&"

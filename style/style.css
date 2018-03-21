@@ -109,18 +109,66 @@ body {
 }
 
 .teamInfo {
-    width: 313px;
-    height: 110px;
+    width: 320px;
+    height: 125px;
+    padding: 6px;
     text-align: center;
-    font-size: 2em;
+    font-size: 26px;
     font-family: orangejuice;
     margin-bottom: 60px;;
     background: url('../assets/images/blackboard.png');
     border: 3px solid #cccccc;
 }
 
+.teamInfo div{
+    margin-top: 12px;
+}
+
 .side {
     position: absolute;
     left: 20px;
     top: 60px;
+}
+
+.questionTitle {
+    font-size: 2em;
+    font-family: seaFont;
+}
+
+.questionContent {
+    font-size: 2.7em;
+    font-family: ralewayBold;
+    margin: 50px 0 40px 0;
+    text-align: center;
+}
+
+.optionButton {
+    font-family: lato;
+    font-size: 24px;
+    border: 2px solid white;
+    margin: 10px auto;
+    max-width: 240px;
+    height: 60px;
+    text-align: center;
+    padding: 10px 6px 10px 6px;
+    cursor: pointer;
+}
+
+.optionButton:hover {
+    background: rgba(220,220,220,0.6);
+}
+
+.dialogCard {
+     
+}
+
+.resultPage {
+    padding-top: 80px;
+    font-size: 3em;
+    font-family: latoBold;
+    text-align: center;
+}
+
+.resultPage div:first-child{
+    margin-bottom: 80px;
 }
