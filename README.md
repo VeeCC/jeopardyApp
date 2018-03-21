@@ -17,9 +17,12 @@
 - No implementation for now to deal with a tie game. 
 ```
 
+### Screenshots
+![Home page](/assets/screenshots/home.PNG)
+
 ### Background Image credits
-1.Photo by Samuel Scrimshaw on Unsplash
-2.Photo by rawpixel.com on Unsplash
+1. Photo by Samuel Scrimshaw on Unsplash
+2. Photo by rawpixel.com on Unsplash
 
 
 ### For myself :p
