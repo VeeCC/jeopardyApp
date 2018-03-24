@@ -1,46 +1,7 @@
 [
     {
-        "question": "Which dynasty lasted the longest?",
-        "answer": [
-            {"option": "Tang", "points": 0},
-            {"option": "Han", "points": 0},
-            {"option": "Ming", "points": 0},
-            {"option": "Zhou", "points": 500},
-            {"option": "Song", "points": 0}
-        ],
-        "points": 500
-    },
-    {
-        "question": "Which emperor lived the longest?",
-        "answer": [
-            {"option": "Kangxi", "points": 0},
-            {"option": "Li Shimin", "points": 0},
-            {"option": "Qianlong", "points": 400},
-            {"option": "Zhao Gou", "points": 0}
-        ],
-        "points": 400
-    },
-    {
-        "question": "Which dynasty built the fobidden city?",
-        "answer": [
-            {"option": "Song", "points": 0},
-            {"option": "Qing", "points": 0},
-            {"option": "Tang", "points": 0},
-            {"option": "Yuan", "points": 0},
-            {"option": "Ming", "points": 300}
-        ],
-        "points": 300
-    },
-    {
-        "question": "Who is the first emperor of China?",
-        "answer": [
-            {"option": "Shang Tang", "points": 0},
-            {"option": "Liu Bei", "points": 0},
-            {"option": "Da Yu", "points": 0},
-            {"option": "Ying Zheng", "points": 200},
-            {"option": "Huang Di", "points": 0}
-        ],
-        "points": 200
+        "label": "Chinese History",
+        "category":"Chinese History"
     },
     {
         "question": "In what year was hong kong returned to China",
@@ -51,6 +12,54 @@
             {"option": "2001", "points": 0},
             {"option": "2005", "points": 0}
         ],
-        "points": 100
+        "points": 100,
+        "label": "100"
+    },
+    {
+        "question": "Who is the first emperor of China?",
+        "answer": [
+            {"option": "Shang Tang", "points": 0},
+            {"option": "Liu Bei", "points": 0},
+            {"option": "Da Yu", "points": 0},
+            {"option": "Ying Zheng", "points": 200},
+            {"option": "Huang Di", "points": 0}
+        ],
+        "points": 200,
+        "label": "200"
+    },
+    {
+        "question": "Which dynasty built the fobidden city?",
+        "answer": [
+            {"option": "Song", "points": 0},
+            {"option": "Qing", "points": 0},
+            {"option": "Tang", "points": 0},
+            {"option": "Yuan", "points": 0},
+            {"option": "Ming", "points": 300}
+        ],
+        "points": 300,
+        "label": "300"
+    },
+    {
+        "question": "Which emperor lived the longest?",
+        "answer": [
+            {"option": "Kangxi", "points": 0},
+            {"option": "Li Shimin", "points": 0},
+            {"option": "Qianlong", "points": 400},
+            {"option": "Zhao Gou", "points": 0}
+        ],
+        "points": 400,
+        "label": "400"
+    },
+    {
+        "question": "Which dynasty lasted the longest?",
+        "answer": [
+            {"option": "Tang", "points": 0},
+            {"option": "Han", "points": 0},
+            {"option": "Ming", "points": 0},
+            {"option": "Zhou", "points": 500},
+            {"option": "Song", "points": 0}
+        ],
+        "points": 500,
+        "label": "500"
     }
 ]

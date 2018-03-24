@@ -10,6 +10,7 @@ function routesConfig($stateProvider, $urlRouterProvider){
     
     var states = [
         {name: 'home', component: 'home', url: '/home'},
+        {name: 'rule', component: 'rule', url: '/rule'},
         {name: 'gameboard', component: 'gameboard', url: '/gameboard'}
     ];
     states.forEach(s => { $stateProvider.state(s);});
@@ -18,6 +19,9 @@ function routesConfig($stateProvider, $urlRouterProvider){
 jeopardyApp.component('home', {
     templateUrl: 'js/home/home.html',
     controller: 'homeController'
+});
+jeopardyApp.component('rule', {
+    templateUrl: 'js/rule/rule.html'
 });
 jeopardyApp.component('gameboard', {
     templateUrl: 'js/gameboard/gameboard.html',

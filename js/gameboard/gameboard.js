@@ -27,11 +27,12 @@ function gameboardController($state,centralService) {
         });
     };
     
-    ctrl.showQuestion = function(q) {
-        if(!q.answered) {
+    ctrl.showQuestion = function(idx,q) {
+        if(idx > 0 && !q.answered){
             q.answered = true;
-            ctrl.currentQuestion = q;    
-        }        
+            ctrl.currentQuestion = q;   
+        }
+                
     };
     
     ctrl.finishQuestion = function(){

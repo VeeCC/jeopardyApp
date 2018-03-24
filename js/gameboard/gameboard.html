@@ -1,25 +1,20 @@
-<div class="gameboard" ng-if="!$ctrl.currentQuestion">
-    <div class="categoryNames">
-        <div ng-repeat="c in $ctrl.content" class="card">
-            {{c.name}}
+<div class="mainContainer">
+    <div class="side">
+        <div ng-repeat="t in $ctrl.teams" class="teamInfo">
+            <span>{{t.name}}</span>
+            <div>{{t.score}}</div>
         </div>
     </div>
-    <div class="questions">
-        <div ng-repeat="con in $ctrl.content" class="column">
-            <div ng-repeat="q in con.questions" class="card" ng-click="$ctrl.showQuestion(q)">
-            <span ng-show="!q.answered">{{q.points}}</span>
+    <div class="gameboard" >
+        <div ng-repeat="con in $ctrl.content" class="column" ng-if="!$ctrl.currentQuestion">
+            <div ng-repeat="q in con.questions" class="card" ng-click="$ctrl.showQuestion($index,q)">
+                <span ng-show="!q.answered">{{q.label}}</span>
             </div>
         </div>
+        <question ng-if="$ctrl.currentQuestion" question="$ctrl.currentQuestion" 
+              team="$ctrl.teamOnPlay" finish-question="$ctrl.finishQuestion()"></question>
     </div>
-</div>
-<question ng-if="$ctrl.currentQuestion" question="$ctrl.currentQuestion" 
-          team="$ctrl.teamOnPlay" finish-question="$ctrl.finishQuestion()"></question>
+    
 
-<div class="side">
-    <div ng-repeat="t in $ctrl.teams" class="teamInfo"
-         ng-class="{'transparentTeamInfo':$ctrl.currentQuestion && $ctrl.teamOnPlay !== $index}">
-        <span>{{t.name}}</span>
-        <div>{{t.score}}</div>
-    </div>
 </div>
 

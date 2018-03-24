@@ -1,25 +1,29 @@
 [
     {
-        "question": "Which U.S. state has the longest coastline?",
-        "answer": [
-            {"option": "Alaska", "points": 500},
-            {"option": "California", "points": 0},
-            {"option": "Floria", "points": 0},
-            {"option": "Texas", "points": 0},
-            {"option": "Washington", "points": 0}
-        ],
-        "points": 500
+        "label": "Misc.",
+        "category":"Misc."
     },
     {
-        "question": "What is the longest river in the world?",
+        "question": "What's the best way to make other people talk to you",
         "answer": [
-            {"option": "Nile", "points": 0},
-            {"option": "Mississippi", "points": 0},
-            {"option": "Yellow River", "points": 0},
-            {"option": "Amazon", "points": 400},
-            {"option": "Blue Nile", "points": 0}
+            {"option": "Dress up cool", "points": 0},
+            {"option": "Keep smiling", "points": 0},
+            {"option": "Walk a dog", "points": 100},
+            {"option": "Be a salesman", "points": 0}
         ],
-        "points": 400
+        "points": 100,
+        "label": "100"
+    },
+    {
+        "question": "What kind of tree do acorns grow on?",
+        "answer": [
+            {"option": "Alder", "points": 0},
+            {"option": "Pine", "points": 0},
+            {"option": "Maple", "points": 0},
+            {"option": "Oak", "points": 200}
+        ],
+        "points": 200,
+        "label": "200"
     },
     {
         "question": "How many holes are there in a full round of golf?",
@@ -30,26 +34,31 @@
             {"option": "20", "points": 0},
             {"option": "18", "points": 300}
         ],
-        "points": 300
+        "points": 300,
+        "label": "300"
     },
     {
-        "question": "What kind of tree do acorns grow on?",
+        "question": "What is the longest river in the world?",
         "answer": [
-            {"option": "Alder", "points": 0},
-            {"option": "Pine", "points": 0},
-            {"option": "Maple", "points": 0},
-            {"option": "Oak", "points": 200}
+            {"option": "Nile", "points": 0},
+            {"option": "Mississippi", "points": 0},
+            {"option": "Yellow River", "points": 0},
+            {"option": "Amazon", "points": 400},
+            {"option": "Blue Nile", "points": 0}
         ],
-        "points": 200
+        "points": 400,
+        "points": "400"
     },
     {
-        "question": "What's the best way to make other people talk to you",
+        "question": "Which U.S. state has the longest coastline?",
         "answer": [
-            {"option": "Dress up cool", "points": 0},
-            {"option": "Keep smiling", "points": 0},
-            {"option": "Walk a dog", "points": 100},
-            {"option": "Be a salesman", "points": 0}
+            {"option": "Alaska", "points": 500},
+            {"option": "California", "points": 0},
+            {"option": "Floria", "points": 0},
+            {"option": "Texas", "points": 0},
+            {"option": "Washington", "points": 0}
         ],
-        "points": 100
+        "points": 500,
+        "label": "500"
     }
 ]

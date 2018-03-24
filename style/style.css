@@ -16,37 +16,41 @@ body {
     width: 100%;
     height: 100%;
     margin: 0;
-    padding-top: 200px;
+    padding-top: 150px;
     text-align: center;
     font-family: cartoon;
-    font-size: 5em;
+    font-size: 6em;
     background: #515151 url('../assets/images/1.samuel-scrimshaw-76647-unsplash.jpg') no-repeat center top;
 }
 
 .jButton {
     width: 180px;
     height: 80px;
-    border: 2px solid white;
-    font-family: latoHairline;
-    font-size: 40px;
+    border: 3px solid white;
+    font-family: ralewayLight;
+    font-size: 38px;
     text-align: center;
     padding-top: 16px;
     cursor: pointer;
     margin: 50px auto;
 }
 
+.jButton:hover {
+    background: rgba(220,220,220,0.6);
+}
+
 .teamName {
-    width: 700px;
-    font-size: 3em;
+    width: 85%;
+    font-size: 4em;
     font-family: orangejuice;
-    margin: 100px auto;
+    margin: 80px auto;
 }
 
 .lineInput {
     background: transparent;
     border: none;
     border-bottom: 2px solid white;
-    width: 400px;
+    width: 70%;
     margin-left: 26px;
     color: inherit;
     font-family: inherit;
@@ -54,80 +58,75 @@ body {
 }
 
 .gameboard {
-    width: 930px;
+    width: 70%;
     position: relative;
-    left: 420px;
-    top: 50px;
-}
-
-.categoryNames {
-    width: 100%;
-    height: 90px;
-    text-align: center;
-}
-
-.categoryNames div
-{
-    float: left;
-    margin: 10px;
-}
-
-.questions {
-    width: 100%;
+    left: 25%;
+    top: 10%;
+    height: 80%;
+    padding: 6px;
 }
 
 .column {
     float: left;
-    width: 130px;
-    margin: 10px;
+    width: 16%;
+    height: 100%;
+    padding: 8px;
 }
 
-.column .card {
-    cursor: pointer;
-    margin-bottom: 16px;
-    font-family: raleway;
-    font-size: 28px;
-    background: rgba(177,203,187,0.85);
-    
-}
 
 .card {
-    width: 130px;
-    height: 78px;
-    background: rgba(97,134,133,0.85);
+    width: 100%;
+    height: 15%;
+    padding: 24px;
+    margin-bottom: 10px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.6);
     transition: 0.3s;
     text-align: center;
-    padding: 18px;
-    font-size: 18px;
+    cursor: pointer;
     font-family: ralewayBold;
+    font-size: 28px;
+    background: rgba(177,203,187,0.9);
+    
 }
 
-.column .card:hover {
+.card:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
-    background: rgba(177,203,187,0.95);
+    background: rgba(177,203,187,1);
+}
+
+.card:first-child {
+    margin-bottom: 26px;
+    background: rgba(97,134,133,0.85);    
+    font-size: 22px;
+    font-family: latoBold;
+    padding-top: 18px;
+    cursor: auto;
 }
 
 .teamInfo {
-    width: 320px;
-    height: 125px;
+    width: 100%;
+    height: 42%;
     padding: 6px;
     text-align: center;
-    font-size: 26px;
+    font-size: 2em;
     font-family: orangejuice;
-    margin-bottom: 60px;;
+    margin-bottom: 8%;
     background: url('../assets/images/blackboard.png');
     border: 3px solid #cccccc;
 }
 
 .teamInfo div{
-    margin-top: 12px;
+    margin-top: 18px;
+    font-size: 2.3em;
+    font-family: journal;
 }
 
 .side {
     position: absolute;
     left: 20px;
-    top: 60px;
+    width: 20%;
+    top: 10%;
+    bottom: 10%;
 }
 
 .questionTitle {
@@ -169,12 +168,24 @@ body {
     margin-bottom: 80px;
 }
 
-.transparentTeamInfo {
-    opacity: 0.5;
-}
-
 .timer {
     float: right;
     font-family: lato;
     font-size: 36px;
+}
+
+.home .jButton {
+    width: 260px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.mainContainer {
+    position: relative;
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
 }

@@ -1,46 +1,7 @@
 [
     {
-        "question": "Which Rock and Roll star was only filmed from the waist up because his hips swinging was too suggestive?",
-        "answer": [
-            {"option": "Elvis Presley", "points": 500},
-            {"option": "John Lennon", "points": 0},
-            {"option": "Axl Rose", "points": 0},
-            {"option": "Johnny Cash", "points": 0},
-            {"option": "Joe Perry", "points": 0}
-        ],
-        "points": 500
-    },
-    {
-        "question": "Which was the first song to be performed in outer space?",
-        "answer": [
-            {"option": "Yellow Submarine", "points": 0},
-            {"option": "Mary had a little lamb", "points": 0},
-            {"option": "Amazing Grace", "points": 0},
-            {"option": "Happy Birthday", "points": 400},
-            {"option": "Mary Ann", "points": 0}
-        ],
-        "points": 400
-    },
-    {
-        "question": "How many sharps in E major?",
-        "answer": [
-            {"option": "Two", "points": 0},
-            {"option": "Zero", "points": 0},
-            {"option": "One", "points": 0},
-            {"option": "Five", "points": 0},
-            {"option": "Four", "points": 300}
-        ],
-        "points": 300
-    },
-    {
-        "question": "Which movie is \"Let It Go\" from?",
-        "answer": [
-            {"option": "Zootopia", "points": 0},
-            {"option": "Toy Story", "points": 0},
-            {"option": "Coco", "points": 0},
-            {"option": "Frozen", "points": 200}
-        ],
-        "points": 200
+        "label": "Music",
+        "category":"Music"
     },
     {
         "question": "Beethoven, Bach, Tchaikovsky and Vivaldi are part of which genre?",
@@ -51,6 +12,55 @@
             {"option": "Soul", "points": 0},
             {"option": "Jazz", "points": 0}
         ],
-        "points": 100
+        "points": 100,
+        "label": "100"
+    },
+    {
+        "question": "Which movie is \"Let It Go\" from?",
+        "answer": [
+            {"option": "Zootopia", "points": 0},
+            {"option": "Toy Story", "points": 0},
+            {"option": "Coco", "points": 0},
+            {"option": "Frozen", "points": 200}
+        ],
+        "points": 200,
+        "label": "200"
+    },
+    {
+        "question": "How many sharps in E major?",
+        "answer": [
+            {"option": "Two", "points": 0},
+            {"option": "Zero", "points": 0},
+            {"option": "One", "points": 0},
+            {"option": "Five", "points": 0},
+            {"option": "Four", "points": 300}
+        ],
+        "points": 300,
+        "label": "300"
+    },
+    {
+        "question": "Which was the first song to be performed in outer space?",
+        "answer": [
+            {"option": "Yellow Submarine", "points": 0},
+            {"option": "Mary had a little lamb", "points": 0},
+            {"option": "Amazing Grace", "points": 0},
+            {"option": "Happy Birthday", "points": 400},
+            {"option": "Mary Ann", "points": 0}
+        ],
+        "points": 400,
+        "label": "400"
+    },
+    {
+        "question": "Which Rock and Roll star was only filmed from the waist up because his hips swinging was too suggestive?",
+        "answer": [
+            {"option": "Elvis Presley", "points": 500},
+            {"option": "John Lennon", "points": 0},
+            {"option": "Axl Rose", "points": 0},
+            {"option": "Johnny Cash", "points": 0},
+            {"option": "Joe Perry", "points": 0}
+        ],
+        "points": 500,
+        "label": "500"
     }
+    
 ]

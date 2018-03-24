@@ -19,5 +19,9 @@ function homeController($state,centralService) {
         var teams = ctrl.teams.map(t => ({name: t.name, score: 0}));
         centralService.setTeams(teams);
         $state.go('gameboard');
+    };
+    
+    ctrl.viewRule = function() {
+        $state.go('rule');
     }
 };

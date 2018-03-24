@@ -1,10 +1,13 @@
 <div class="home" ng-if="!$ctrl.atContent">
-    {{$ctrl.title}}
+    <p>{{$ctrl.title}}</p>
     <div class="jButton" ng-click="$ctrl.setTeamName()">START</div>
+    <div class="jButton" ng-click="$ctrl.viewRule()">VIEW RULES</div>
 </div>
-<div ng-if="$ctrl.atContent">
+<div ng-if="$ctrl.atContent" style="text-align: center">
+    <p class="questionContent">Enter names for your team</p>
     <div ng-repeat="t in $ctrl.teams" class="teamName">
-        Team Name: <input type="text" class="lineInput" ng-model="t.name"/>
+        Team {{$index+1}}: <input type="text" class="lineInput" ng-model="t.name"/>
     </div>
     <div class="jButton" ng-click="$ctrl.startGame()">SAVE</div>
+    <span class="note">*Once the game starts, team1 goes first, then teams take turns to answer question unitl the end of game.</span>
 </div>

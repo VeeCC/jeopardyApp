@@ -1,42 +1,7 @@
 [
     {
-        "question": "What is sin(A+B)",
-        "answer": [
-            {"option": "sinA cosB + cosA sinB", "points": 500},
-            {"option": "sinA cosB - cosA sinB", "points": 0},
-            {"option": "cosA cosB + cosA cosB", "points": 0},
-            {"option": "cosA cosB - cosA cosB", "points": 0}
-        ],
-        "points": 500
-    },
-    {
-        "question": "Continue this pattern 144, 121, 100, 81, 64",
-        "answer": [
-            {"option": "52", "points": 0},
-            {"option": "47", "points": 0},
-            {"option": "0", "points": 0},
-            {"option": "49", "points": 400}
-        ],
-        "points": 400
-    },
-    {
-        "question": "Solve this (32x8) + 104 -27?",
-        "answer": [
-            {"option": "232", "points": 0},
-            {"option": "331", "points": 0},
-            {"option": "342", "points": 0},
-            {"option": "343", "points": 0},
-            {"option": "333", "points": 300}
-        ],
-        "points": 300
-    },
-    {
-        "question": "Is 45 a prime number?",
-        "answer": [
-            {"option": "Yes", "points": 0},
-            {"option": "No", "points": 200}
-        ],
-        "points": 200
+        "label": "Math",
+        "category":"Math"
     },
     {
         "question": "What is 1 + 1?",
@@ -47,6 +12,50 @@
             {"option": "0", "points": 0},
             {"option": "0", "points": 0}
         ],
-        "points": 100
+        "points": 100,
+        "label": "100"
+    },
+    {
+        "question": "Is 45 a prime number?",
+        "answer": [
+            {"option": "Yes", "points": 0},
+            {"option": "No", "points": 200}
+        ],
+        "points": 200,
+        "label": "200"
+    },
+    {
+        "question": "Solve this (32x8) + 104 -27?",
+        "answer": [
+            {"option": "232", "points": 0},
+            {"option": "331", "points": 0},
+            {"option": "342", "points": 0},
+            {"option": "343", "points": 0},
+            {"option": "333", "points": 300}
+        ],
+        "points": 300,
+        "label": "300"
+    },
+    {
+        "question": "Continue this pattern 144, 121, 100, 81, 64",
+        "answer": [
+            {"option": "52", "points": 0},
+            {"option": "47", "points": 0},
+            {"option": "0", "points": 0},
+            {"option": "49", "points": 400}
+        ],
+        "points": 400,
+        "label": "400"
+    },
+    {
+        "question": "What is sin(A+B)",
+        "answer": [
+            {"option": "sinA cosB + cosA sinB", "points": 500},
+            {"option": "sinA cosB - cosA sinB", "points": 0},
+            {"option": "cosA cosB + cosA cosB", "points": 0},
+            {"option": "cosA cosB - cosA cosB", "points": 0}
+        ],
+        "points": 500,
+        "label": "500"
     }
 ]

@@ -83,5 +83,6 @@ function questionController(centralService, $interval) {
     
     ctrl.goBack = function() {
         ctrl.tempEndGame = false;
+        firstTry = true;
     }
 };

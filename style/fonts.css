@@ -24,6 +24,21 @@
 }
 
 @font-face {
+    font-family: bitNoire;
+    src: url('../assets/fonts/BitNoire.ttf');
+}
+
+@font-face {
+    font-family: alwaysForever;
+    src: url('../assets/fonts/always forever.ttf');
+}
+
+@font-face {
+    font-family: admirationPains;
+    src: url('../assets/fonts/Admiration Pains.ttf');
+}
+
+@font-face {
     font-family: lato;
     src: url('../assets/fonts/Lato-Regular.ttf');
 }

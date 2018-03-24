@@ -1,45 +1,7 @@
 [
     {
-        "question": "Please pick an answer to complete movie name, Tomb ___",
-        "answer": [
-            {"option": "Raider", "points": 500},
-            {"option": "Rider", "points": 0},
-            {"option": "Raiders", "points": 0},
-            {"option": "Riders", "points": 0}
-        ],
-        "points": 500
-    },
-    {
-        "question": "Please pick an answer to complete movie name, The Shawshank ___",
-        "answer": [
-            {"option": "Atonement", "points": 0},
-            {"option": "Reparation", "points": 0},
-            {"option": "Salvation", "points": 0},
-            {"option": "Redemtion", "points": 400},
-            {"option": "Restitution", "points": 0}
-        ],
-        "points": 400
-    },
-    {
-        "question": "Please pick an answer to complete movie name, Schindler's ___",
-        "answer": [
-            {"option": "Index", "points": 0},
-            {"option": "Schedule", "points": 0},
-            {"option": "Lost", "points": 0},
-            {"option": "Catalog", "points": 0},
-            {"option": "List", "points": 300}
-        ],
-        "points": 300
-    },
-    {
-        "question": "Please pick an answer to complete movie name, Ocean's ___",
-        "answer": [
-            {"option": "Elevan", "points": 0},
-            {"option": "Ten", "points": 0},
-            {"option": "Twenty", "points": 0},
-            {"option": "Twelve", "points": 200}
-        ],
-        "points": 200
+        "label": "Movies",
+        "category":"Movies"
     },
     {
         "question": "Please pick an answer to complete movie name, The Lion ___",
@@ -50,6 +12,53 @@
             {"option": "Kings", "points": 0},
             {"option": "Mom", "points": 0}
         ],
-        "points": 100
+        "points": 100,
+        "label": "100"
+    },
+    {
+        "question": "Please pick an answer to complete movie name, Ocean's ___",
+        "answer": [
+            {"option": "Elevan", "points": 0},
+            {"option": "Ten", "points": 0},
+            {"option": "Twenty", "points": 0},
+            {"option": "Twelve", "points": 200}
+        ],
+        "points": 200,
+        "label": "200"
+    },
+    {
+        "question": "Please pick an answer to complete movie name, Schindler's ___",
+        "answer": [
+            {"option": "Index", "points": 0},
+            {"option": "Schedule", "points": 0},
+            {"option": "Lost", "points": 0},
+            {"option": "Catalog", "points": 0},
+            {"option": "List", "points": 300}
+        ],
+        "points": 300,
+        "label": "300"
+    },
+    {
+        "question": "Please pick an answer to complete movie name, The Shawshank ___",
+        "answer": [
+            {"option": "Atonement", "points": 0},
+            {"option": "Reparation", "points": 0},
+            {"option": "Salvation", "points": 0},
+            {"option": "Redemption", "points": 400},
+            {"option": "Restitution", "points": 0}
+        ],
+        "points": 400,
+        "label": "400"
+    },
+    {
+        "question": "Please pick an answer to complete movie name, Tomb ___",
+        "answer": [
+            {"option": "Raider", "points": 500},
+            {"option": "Rider", "points": 0},
+            {"option": "Raiders", "points": 0},
+            {"option": "Riders", "points": 0}
+        ],
+        "points": 500,
+        "label": "500"
     }
 ]
