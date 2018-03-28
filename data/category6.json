@@ -47,7 +47,7 @@
             {"option": "Blue Nile", "points": 0}
         ],
         "points": 400,
-        "points": "400"
+        "label": "400"
     },
     {
         "question": "Which U.S. state has the longest coastline?",

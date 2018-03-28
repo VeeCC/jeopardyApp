@@ -11,16 +11,17 @@ function gameboardController($state,centralService) {
         ctrl.teamOnPlay = 0;
         
         ctrl.teams = centralService.getTeams();
-        var categoryNames = centralService.getCategoryNames();
         ctrl.questions = centralService.getQuestions().then(function(res){
             for(var i=0; i<res.length; i++) {
                 var q = res[i].data;
                 q.forEach(data => {
-                    data.answered = false;
-                    data.category = categoryNames[i];
+                    if(!data.category){
+                        data.answered = false;
+                        data.category = q[0].category;    
+                    }
+                    
                 });
-                var o = {name: categoryNames[i], questions: q};
-                ctrl.content.push(o);
+                ctrl.content.push({questions: q});
             }
         },function(err){
             

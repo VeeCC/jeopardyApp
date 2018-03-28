@@ -1,0 +1,62 @@
+[
+    {
+        "label": "Elija and Elisha",
+        "category":"Old Testament 1"
+    },
+    {
+        "question": "Who was taken up in a chariot of fire and a whirlwind?",
+        "answer": [
+            {"option": "Elijah", "points": 100},
+            {"option": "Elisha", "points": 0},
+            {"option": "Neither", "points": 0},
+            {"option": "Both", "points": 0}
+        ],
+        "points": 100,
+        "label": "100"
+    },
+    {
+        "question": "Who said, \"I pray thee, let a double portion of thy spirit be upon me\"?",
+        "answer": [
+            {"option": "Elijah", "points": 0},
+            {"option": "Elisha", "points": 200},
+            {"option": "Neither", "points": 0},
+            {"option": "Both", "points": 0}
+        ],
+        "points": 200,
+        "label": "200"
+    },
+    {
+        "question": "Who asked Elisha to forgive him for worshipping in the house of the god Rimmon?",
+        "answer": [
+            {"option": "Naaman", "points": 300},
+            {"option": "Gehazi", "points": 0},
+            {"option": "Ahaz", "points": 0},
+            {"option": "Nimshi", "points": 0}
+        ],
+        "points": 300,
+        "label": "300"
+    },
+    {
+        "question": "Who prophesied before three kings while being accompanied with music from a minstrel?",
+        "answer": [
+            {"option": "Elijah", "points": 0},
+            {"option": "Elisha", "points": 400},
+            {"option": "Neither", "points": 0},
+            {"option": "Both", "points": 0}
+        ],
+        "points": 400,
+        "label": "400"
+    },
+    {
+        "question": "\"A still small voice\" came to Elijah...",
+        "answer": [
+            {"option": "It was Elisha, not Elijah", "points": 0},
+            {"option": "Right after the earthquake", "points": 0},
+            {"option": "Right after the fire", "points": 500},
+            {"option": "Right after the strong wind", "points": 0}
+        ],
+        "points": 500,
+        "label": "500"
+    }
+    
+]

@@ -22,10 +22,13 @@
 ![gameboard](/assets/screenshots/gameboard.PNG)
 ![game](/assets/screenshots/game.PNG)
 
-### Background Image credits
-1. Photo by Samuel Scrimshaw on Unsplash
-2. Photo by rawpixel.com on Unsplash
-
+### Credits
+1. Background Image 1 - Photo by Samuel Scrimshaw on Unsplash
+2. Background Image 2 - Photo by rawpixel.com on Unsplash
+3. 6 categories of sample quesitions are from https://www.christianity.com/trivia/jeopardy/
 
 ### For myself :p
-[GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+- [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+- Need visual cue for which team is playing (status)
+- Allow to set time in config file
+- A better timer

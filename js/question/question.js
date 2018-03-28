@@ -3,9 +3,6 @@ jeopardyApp.controller("questionController", questionController);
 questionController.$inject = ['centralService','$interval'];
 function questionController(centralService, $interval) {
     var ctrl = this;
-    //ctrl.team
-    //ctrl.question
-    //ctrl.finishQuestion();
     ctrl.tempEndGame = false;
     ctrl.resultMessage = "";
     ctrl.countDown = "";
@@ -15,7 +12,7 @@ function questionController(centralService, $interval) {
     var timer;
     
     ctrl.$onInit = function(){
-        startTimer(45);
+        startTimer(10);
         teamNames = centralService.getTeams().map(t => t.name);
     };
     
@@ -82,7 +79,8 @@ function questionController(centralService, $interval) {
     }
     
     ctrl.goBack = function() {
+        ctrl.notime = false;
         ctrl.tempEndGame = false;
-        firstTry = true;
+        firstTry = true;        
     }
 };

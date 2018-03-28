@@ -16,22 +16,24 @@ function centralService($http,$q) {
         if(settings.team2){
             teams.push({name:settings.team2,score:0});
         }
+        /*
         if(settings.games){
             categoryNames = [];
             settings.games.forEach((ele) => {
                 categoryNames.push(settings['category'+ele]);
             });
         }
+        */
     };
     
     service.getTitle = function(){
         return settings.title;
     };
-    
+    /*
     service.getCategoryNames = function() {
         return categoryNames;
     };
-    
+    */
     service.setTeams = function(_ts){
         teams = _ts;
     };
