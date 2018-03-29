@@ -1,0 +1,62 @@
+[
+    {
+        "label": "Letters",
+        "category":"Letters"
+    },
+    {
+        "question": "If I speak with the tongues of men and of angels, but have not love, I am as what?",
+        "answer": [
+            {"option": "A sounding brass/tinkling cymbal", "points": 100},
+            {"option": "A very wise and prudent man", "points": 0},
+            {"option": "A follower of Jesus Christ", "points": 0},
+            {"option": "A beautiful garden/fruitful vine", "points": 0}
+        ],
+        "points": 100,
+        "label": "100"
+    },
+    {
+        "question": "Which of the following statements is false?",
+        "answer": [
+            {"option": "The head of every man is Christ", "points": 0},
+            {"option": "The head of every woman is man", "points": 0},
+            {"option": "The head of Christ is God", "points": 0},
+            {"option": "The head of the church is the Pope", "points": 200}
+        ],
+        "points": 200,
+        "label": "200"
+    },
+    {
+        "question": "When shall Christ's brethren \"appear with him (Jesus) in glory\"?",
+        "answer": [
+            {"option": "All of these", "points": 0},
+            {"option": "Immediately upon death", "points": 0},
+            {"option": "At Christ's ascension", "points": 0},
+            {"option": "At Christ's appearing", "points": 300}
+        ],
+        "points": 300,
+        "label": "300"
+    },
+    {
+        "question": "Who was the apostle Paul addressing when he wrote, \"Ye are our epistle written in our hearts, known and read of all men\"?",
+        "answer": [
+            {"option": "Church at Ephesus", "points": 0},
+            {"option": "Titus", "points": 0},
+            {"option": "Timothy", "points": 0},
+            {"option": "Church at Corinth", "points": 400}
+        ],
+        "points": 400,
+        "label": "400"
+    },
+    {
+        "question": "What epistle closes with the words: \"All that are with me salute thee. Greet them that love us in the faith. Grace be with you all. Amen\"?",
+        "answer": [
+            {"option": "Titus", "points": 500},
+            {"option": "2 Timothy", "points": 0},
+            {"option": "1 Timothy", "points": 0},
+            {"option": "Philemon", "points": 0}
+        ],
+        "points": 500,
+        "label": "500"
+    }
+    
+]

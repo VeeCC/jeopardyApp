@@ -13,29 +13,10 @@
     src: url('../assets/fonts/SEA.ttf');
 }
 
-@font-face {
-    font-family: strawberry;
-    src: url('../assets/fonts/Strawberry.ttf');
-}
 
 @font-face {
     font-family: orangejuice;
     src: url('../assets/fonts/orange juice 2.0.ttf');
-}
-
-@font-face {
-    font-family: bitNoire;
-    src: url('../assets/fonts/BitNoire.ttf');
-}
-
-@font-face {
-    font-family: alwaysForever;
-    src: url('../assets/fonts/always forever.ttf');
-}
-
-@font-face {
-    font-family: admirationPains;
-    src: url('../assets/fonts/Admiration Pains.ttf');
 }
 
 @font-face {

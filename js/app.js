@@ -33,7 +33,9 @@ jeopardyApp.component('question', {
     bindings: {
         question: "<",
         team: "<",
-        finishQuestion: "&"
+        finishQuestion: "&",
+        steal: "&",
+        stopTimer: "&"
     }
 });
 

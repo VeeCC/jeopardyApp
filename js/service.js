@@ -85,5 +85,11 @@ function centralService($http,$q) {
         return deferred.promise;
     };
     
+    service.getRegularTime = function() {
+        return settings.regularTime || 45;
+    };
     
+    service.getStealingTime = function() {
+        return settings.stealingTime || 15;
+    };
 };

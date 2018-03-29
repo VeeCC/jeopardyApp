@@ -1,12 +1,8 @@
 {
-    "category1": "Color",
-    "category2": "Chinese History",
-    "category3": "Movies",
-    "category4": "Music",
-    "category5": "Math",
-    "category6": "Misc",
-    "games": [7,8,3,4,5,6],
+    "games": [1,2,3,4,5,6],
     "title": "Jeopardy Game",
     "team1": "Knows everything",
-    "team2": "Never win, never give up"
+    "team2": "Never win, never give up",
+    "regularTime": 45,
+    "stealingTime": 15
 }

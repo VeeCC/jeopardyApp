@@ -1,6 +1,10 @@
 <div class="mainContainer">
     <div class="side">
         <div ng-repeat="t in $ctrl.teams" class="teamInfo">
+            <p class="timer" ng-if="$ctrl.currentTeam === $index">
+                <i class="icon ion-clock"></i>
+                {{$ctrl.countDown}}
+            </p>
             <span>{{t.name}}</span>
             <div>{{t.score}}</div>
         </div>
@@ -12,7 +16,8 @@
             </div>
         </div>
         <question ng-if="$ctrl.currentQuestion" question="$ctrl.currentQuestion" 
-              team="$ctrl.teamOnPlay" finish-question="$ctrl.finishQuestion()"></question>
+                team="$ctrl.teamOnPlay" finish-question="$ctrl.finishQuestion()"
+                  steal="$ctrl.steal()" stop-timer="$ctrl.stopTimer()"></question>
     </div>
     
 

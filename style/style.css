@@ -179,9 +179,10 @@ body {
 }
 
 .timer {
-    float: right;
     font-family: lato;
-    font-size: 36px;
+    font-size: 1em;
+    margin: 3px;
+    color: bisque;
 }
 
 .home .jButton {
