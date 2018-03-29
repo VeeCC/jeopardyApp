@@ -1,0 +1,62 @@
+[
+    {
+        "label": "Word Meanings",
+        "category":"Word Meanings"
+    },
+    {
+        "question": "According to Revelation how could one gain entrance to the New Jerusalem?",
+        "answer": [
+            {"option": "your name had to be in the Lamb's book of life", "points": 100},
+            {"option": "you must be born into it", "points": 0},
+            {"option": "you must be brought there", "points": 0},
+            {"option": "you must be an heir", "points": 0}
+        ],
+        "points": 100,
+        "label": "100"
+    },
+    {
+        "question": "According to Proverbs, what does a fool make of sin?",
+        "answer": [
+            {"option": "he makes nothing of sin", "points": 0},
+            {"option": "he makes an enemy of sin", "points": 0},
+            {"option": "he makes a sword of sin", "points": 0},
+            {"option": "he makes a mock of sin", "points": 200}
+        ],
+        "points": 200,
+        "label": "200"
+    },
+    {
+        "question": "Adam named his wife Eve. What does her name mean?",
+        "answer": [
+            {"option": "taken from my rib", "points": 0},
+            {"option": "a helpmeet", "points": 0},
+            {"option": "mother of all living", "points": 300},
+            {"option": "child of God", "points": 0}
+        ],
+        "points": 300,
+        "label": "300"
+    },
+    {
+        "question": "What was the word of the Lord that was given to Haggai?",
+        "answer": [
+            {"option": "there will be a great famine in the land", "points": 0},
+            {"option": "it is time for the exiles to rebuild the temple", "points": 400},
+            {"option": "it is time to fast and repent of their sins", "points": 0},
+            {"option": "it is time to choose a new king", "points": 0}
+        ],
+        "points": 400,
+        "label": "400"
+    },
+    {
+        "question": "What does Paul say that Abraham's two wives represented?",
+        "answer": [
+            {"option": "two covenants", "points": 500},
+            {"option": "two natures", "points": 0},
+            {"option": "two religions", "points": 0},
+            {"option": "two nations", "points": 0}
+        ],
+        "points": 500,
+        "label": "500"
+    }
+    
+]

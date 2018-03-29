@@ -1,7 +1,7 @@
 <div class="mainContainer">
     <div class="side">
         <div ng-repeat="t in $ctrl.teams" class="teamInfo">
-            <p class="timer" ng-if="$ctrl.currentTeam === $index">
+            <p class="timer" ng-show="$ctrl.currentTeam === $index">
                 <i class="icon ion-clock"></i>
                 {{$ctrl.countDown}}
             </p>

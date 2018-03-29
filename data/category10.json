@@ -1,0 +1,62 @@
+[
+    {
+        "label": "Mosaic Law",
+        "category":"Mosaic Law"
+    },
+    {
+        "question": "How many days were the Israelites to eat unleavened bread as a memorial??",
+        "answer": [
+            {"option": "20", "points": 0},
+            {"option": "10", "points": 0},
+            {"option": "14", "points": 0},
+            {"option": "7", "points": 100}
+        ],
+        "points": 100,
+        "label": "100"
+    },
+    {
+        "question": "What was written upon the two onyx stones that were to be placed upon the shoulders of the high priest's ephod?",
+        "answer": [
+            {"option": "The sons of Aaron the priest", "points": 0},
+            {"option": "Holiness unto the LORD", "points": 0},
+            {"option": "The name of the LORD", "points": 0},
+            {"option": "The names of the 12 tribes", "points": 200}
+        ],
+        "points": 200,
+        "label": "200"
+    },
+    {
+        "question": "Those who served `graven images` would be cursed by the LORD God unto what number of generations?",
+        "answer": [
+            {"option": "5th and 6th", "points": 0},
+            {"option": "1st and 2nd", "points": 300},
+            {"option": "3rd and 4th", "points": 0},
+            {"option": "Forever", "points": 0}
+        ],
+        "points": 300,
+        "label": "300"
+    },
+    {
+        "question": "What two animals were permitted to be eaten at the Passover?",
+        "answer": [
+            {"option": "Not tow, only sheep", "points": 0},
+            {"option": "Lamb and goat", "points": 0},
+            {"option": "Sheep and lamb", "points": 0},
+            {"option": "Sheep and goat", "points": 400}
+        ],
+        "points": 400,
+        "label": "400"
+    },
+    {
+        "question": "Within the tabernacle, the lampstand was placed toward the ___, while the table of shewbread was placed opposite it, toward the ___.",
+        "answer": [
+            {"option": "south, north", "points": 500},
+            {"option": "north, south", "points": 0},
+            {"option": "east, west", "points": 0},
+            {"option": "west, east", "points": 0}
+        ],
+        "points": 500,
+        "label": "500"
+    }
+    
+]

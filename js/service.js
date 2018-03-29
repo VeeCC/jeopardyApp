@@ -77,6 +77,9 @@ function centralService($http,$q) {
     service.getQuestions = function() {
         var deferred = $q.defer();
         var urlcalls = settings.games.map(ele => (service.getQuestion(ele)));
+        if(urlcalls.length > 6) {
+            urlcalls = urlcalls.slice(0,6);
+        }
         $q.all(urlcalls).then(function(res){
            deferred.resolve(res); 
         },function(error){

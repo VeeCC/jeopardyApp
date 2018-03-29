@@ -1,0 +1,62 @@
+[
+    {
+        "label": "Poetry",
+        "category":"Poetry"
+    },
+    {
+        "question": "What is better than \"weapons of war\"?",
+        "answer": [
+            {"option": "Fame", "points": 0},
+            {"option": "Wisdom", "points": 100},
+            {"option": "Money", "points": 0},
+            {"option": "Beauty", "points": 0}
+        ],
+        "points": 100,
+        "label": "100"
+    },
+    {
+        "question": "Who has God made \"a little lower than angels\"?",
+        "answer": [
+            {"option": "Man", "points": 200},
+            {"option": "Jesus", "points": 0},
+            {"option": "The cherubim", "points": 0},
+            {"option": "The seraphim", "points": 0}
+        ],
+        "points": 200,
+        "label": "200"
+    },
+    {
+        "question": "What is like \"a deep ditch\" and \"a narrow pit\"?",
+        "answer": [
+            {"option": "Prosperity", "points": 0},
+            {"option": "The road to life", "points": 0},
+            {"option": "An adulteress", "points": 300},
+            {"option": "Wisdom", "points": 0}
+        ],
+        "points": 300,
+        "label": "300"
+    },
+    {
+        "question": "\"He that blesseth his friend with a loud voice, rising early in the morning, it shall be counted a _______\" (Proverbs 27:14).",
+        "answer": [
+            {"option": "Delight to him", "points": 0},
+            {"option": "Curse to him", "points": 400},
+            {"option": "Honor to him", "points": 0},
+            {"option": "Bother to him", "points": 0}
+        ],
+        "points": 400,
+        "label": "400"
+    },
+    {
+        "question": "Who has two daughters that cry, \"Give, give\"?",
+        "answer": [
+            {"option": "A horseleach", "points": 500},
+            {"option": "The grave", "points": 0},
+            {"option": "The fool", "points": 0},
+            {"option": "An adulteress", "points": 0}
+        ],
+        "points": 500,
+        "label": "500"
+    }
+    
+]
