@@ -1,59 +1,59 @@
 [
     {
-        "label": "Word Meanings",
-        "category":"Word Meanings"
+        "label": "Name Meaning",
+        "category":"Name Meaning"
     },
     {
-        "question": "According to Revelation how could one gain entrance to the New Jerusalem?",
+        "question": "The virgin will conceive and give birth to a son and will call him Immanuel. This means",
         "answer": [
-            {"option": "your name had to be in the Lamb's book of life", "points": 100},
-            {"option": "you must be born into it", "points": 0},
-            {"option": "you must be brought there", "points": 0},
-            {"option": "you must be an heir", "points": 0}
+            {"option": "God is with us", "points": 100},
+            {"option": "Messiah", "points": 0},
+            {"option": "Lord", "points": 0},
+            {"option": "God hears us", "points": 0}
         ],
         "points": 100,
         "label": "100"
     },
     {
-        "question": "According to Proverbs, what does a fool make of sin?",
+        "question": "My name means, \"he laughs,\" because my mom laughed at the thought of my birth.",
         "answer": [
-            {"option": "he makes nothing of sin", "points": 0},
-            {"option": "he makes an enemy of sin", "points": 0},
-            {"option": "he makes a sword of sin", "points": 0},
-            {"option": "he makes a mock of sin", "points": 200}
+            {"option": "Abraham", "points": 0},
+            {"option": "Job", "points": 0},
+            {"option": "Jacob", "points": 0},
+            {"option": "Isaac", "points": 200}
         ],
         "points": 200,
         "label": "200"
     },
     {
-        "question": "Adam named his wife Eve. What does her name mean?",
+        "question": "Don’t call me Naomi, call me _____ because the Almighty has made my life very bitter.",
         "answer": [
-            {"option": "taken from my rib", "points": 0},
-            {"option": "a helpmeet", "points": 0},
-            {"option": "mother of all living", "points": 300},
-            {"option": "child of God", "points": 0}
+            {"option": "Moira", "points": 0},
+            {"option": "Ruth", "points": 0},
+            {"option": "Mara", "points": 300},
+            {"option": "Mera", "points": 0}
         ],
         "points": 300,
         "label": "300"
     },
     {
-        "question": "What was the word of the Lord that was given to Haggai?",
+        "question": "Gomer conceived again and gave birth to a daughter. Then the Lord said to Hosea, \"Call her Lo-Ruhamah...\" Lo-Ruhamah means",
         "answer": [
-            {"option": "there will be a great famine in the land", "points": 0},
-            {"option": "it is time for the exiles to rebuild the temple", "points": 400},
-            {"option": "it is time to fast and repent of their sins", "points": 0},
-            {"option": "it is time to choose a new king", "points": 0}
+            {"option": "not my people", "points": 0},
+            {"option": "not loved", "points": 400},
+            {"option": "my people", "points": 0},
+            {"option": "loved", "points": 0}            
         ],
         "points": 400,
         "label": "400"
     },
     {
-        "question": "What does Paul say that Abraham's two wives represented?",
+        "question": "\"As she (Rachel) breathed her last—for she was dying—she named her son Ben-Oni. But his father named him Benjamin.\" Ben-Oni means",
         "answer": [
-            {"option": "two covenants", "points": 500},
-            {"option": "two natures", "points": 0},
-            {"option": "two religions", "points": 0},
-            {"option": "two nations", "points": 0}
+            {"option": "son of my burden", "points": 0},
+            {"option": "son of my trouble", "points": 500},
+            {"option": "son of my womb", "points": 0},
+            {"option": "on of my right hand", "points": 0}
         ],
         "points": 500,
         "label": "500"

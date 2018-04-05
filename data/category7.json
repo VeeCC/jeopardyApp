@@ -1,59 +1,59 @@
 [
     {
-        "label": "Old Testament 1",
-        "category":"Old Testament 1"
+        "label": "New Testament",
+        "category":"New Testament"
     },
     {
-        "question": "What language was the Old Testament written in?",
+        "question": "Which book comes last in the New Testament?",
         "answer": [
-            {"option": "Hebrew", "points": 100},
-            {"option": "Greek", "points": 0},
-            {"option": "Syriac", "points": 0},
-            {"option": "Persian", "points": 0}
+            {"option": "Revelation", "points": 100},
+            {"option": "Titus", "points": 0},
+            {"option": "Matthew", "points": 0},
+            {"option": "Genesis", "points": 0}
         ],
         "points": 100,
         "label": "100"
     },
     {
-        "question": "Who were the two sons of Joseph?",
+        "question": "Who wrote most of the books in the New Testament?",
         "answer": [
-            {"option": "Gad and Asher", "points": 0},
-            {"option": "Ben and Hur", "points": 0},
-            {"option": "Terah and Nahor", "points": 0},
-            {"option": "Ephraim and Manasseh", "points": 200}
+            {"option": "Chirs", "points": 0},
+            {"option": "John", "points": 0},
+            {"option": "Mark", "points": 0},
+            {"option": "Paul", "points": 200}
         ],
         "points": 200,
         "label": "200"
     },
     {
-        "question": "Who was the son of Lamech?",
+        "question": "Which gospel records the fewest of the miracles performed by Jesus?",
         "answer": [
-            {"option": "Noah", "points": 300},
-            {"option": "Methuselah", "points": 0},
-            {"option": "Jared", "points": 0},
-            {"option": "Shem", "points": 0}
+            {"option": "Matthew", "points": 300},
+            {"option": "Mark", "points": 0},
+            {"option": "Luke", "points": 0},
+            {"option": "John", "points": 0}
         ],
         "points": 300,
         "label": "300"
     },
     {
-        "question": "Who was Jacob's daughter?",
+        "question": "On what island was Paul shipwrecked as he made his way to Rome?",
         "answer": [
-            {"option": "Tamar", "points": 0},
-            {"option": "Deborah", "points": 0},
-            {"option": "Leah", "points": 0},
-            {"option": "Dianh", "points": 400}
+            {"option": "Myra", "points": 0},
+            {"option": "Crete", "points": 0},
+            {"option": "Patmos", "points": 0},
+            {"option": "Malta", "points": 400}
         ],
         "points": 400,
         "label": "400"
     },
     {
-        "question": "How long was Noah in the ark?",
+        "question": "During Paul’s third missionary journey, roughly for how long did he minister in the school of Tyrannus at Ephesus?",
         "answer": [
-            {"option": "about 6 months", "points": 0},
-            {"option": "about 9 months", "points": 0},
-            {"option": "about 12 months", "points": 500},
-            {"option": "about 18 months", "points": 0}
+            {"option": "3 years", "points": 0},
+            {"option": "2 years", "points": 500},
+            {"option": "1 and a half year", "points": 0},
+            {"option": "1 year", "points": 0}
         ],
         "points": 500,
         "label": "500"

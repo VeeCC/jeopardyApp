@@ -26,10 +26,9 @@
 ### Credits
 1. Background Image 1 - Photo by Samuel Scrimshaw on Unsplash
 2. Background Image 2 - Photo by rawpixel.com on Unsplash
-3. 6 sample quesitions are from https://www.christianity.com/trivia/jeopardy/
 
 ### How to create your own game
-```markdown
+
 1. Find data folder, there are several sample category files.
 2. Replace category, label, question, answers and even points with your own content.
 3. Long category names and long answers are not recommend. You'll be able to fit in more character if your screen size is larger. 
@@ -40,6 +39,6 @@
 8. team1 and team2 are default team names, can be changed in the game.
 9. regularTime, unit is second, is the time the team picks the question has to answer the question.
 10. stealingTime, unit is second, is the time the team steals a question has to anwer the question.
-```
+
 ### For myself :p
 - [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).

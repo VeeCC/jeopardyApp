@@ -1,59 +1,59 @@
 [
     {
-        "label": "Letters",
-        "category":"Letters"
+        "label": "Who am I?",
+        "category":"Who am I?"
     },
     {
-        "question": "If I speak with the tongues of men and of angels, but have not love, I am as what?",
+        "question": "I wore clothing made of camel hair and ate locusts and honey.",
         "answer": [
-            {"option": "A sounding brass/tinkling cymbal", "points": 100},
-            {"option": "A very wise and prudent man", "points": 0},
-            {"option": "A follower of Jesus Christ", "points": 0},
-            {"option": "A beautiful garden/fruitful vine", "points": 0}
+            {"option": "John the Baptist", "points": 100},
+            {"option": "Jesus Christ", "points": 0},
+            {"option": "Job", "points": 0},
+            {"option": "Mary", "points": 0}
         ],
         "points": 100,
         "label": "100"
     },
     {
-        "question": "Which of the following statements is false?",
+        "question": "She said to her mother-in- law, \"Where you go I will go, and where you stay I will stay. Your people will be my people and your God my God.\"",
         "answer": [
-            {"option": "The head of every man is Christ", "points": 0},
-            {"option": "The head of every woman is man", "points": 0},
-            {"option": "The head of Christ is God", "points": 0},
-            {"option": "The head of the church is the Pope", "points": 200}
+            {"option": "Naomi", "points": 0},
+            {"option": "Orpah", "points": 0},
+            {"option": "Esther", "points": 0},
+            {"option": "Ruth", "points": 200}
         ],
         "points": 200,
         "label": "200"
     },
     {
-        "question": "When shall Christ's brethren \"appear with him (Jesus) in glory\"?",
+        "question": "I am the oldest son of King Saul, Israel’s first king.",
         "answer": [
-            {"option": "All of these", "points": 0},
-            {"option": "Immediately upon death", "points": 0},
-            {"option": "At Christ's ascension", "points": 0},
-            {"option": "At Christ's appearing", "points": 300}
+            {"option": "Ish-bosheth", "points": 0},
+            {"option": "Abinadab", "points": 0},
+            {"option": "Michal", "points": 0},
+            {"option": "Jonathan", "points": 300}
         ],
         "points": 300,
         "label": "300"
     },
     {
-        "question": "Who was the apostle Paul addressing when he wrote, \"Ye are our epistle written in our hearts, known and read of all men\"?",
+        "question": "I am Napthali, son of Jacob and ____",
         "answer": [
-            {"option": "Church at Ephesus", "points": 0},
-            {"option": "Titus", "points": 0},
-            {"option": "Timothy", "points": 0},
-            {"option": "Church at Corinth", "points": 400}
+            {"option": "Leah", "points": 0},
+            {"option": "Rachel", "points": 0},
+            {"option": "Zilpah", "points": 0},
+            {"option": "Bilhah", "points": 400}
         ],
         "points": 400,
         "label": "400"
     },
     {
-        "question": "What epistle closes with the words: \"All that are with me salute thee. Greet them that love us in the faith. Grace be with you all. Amen\"?",
+        "question": "I am ____, the father of Jacob, and Jacob the father of Joseph, the husband of Mary, and Mary was the mother of Jesus who is called the Messiah.",
         "answer": [
-            {"option": "Titus", "points": 500},
-            {"option": "2 Timothy", "points": 0},
-            {"option": "1 Timothy", "points": 0},
-            {"option": "Philemon", "points": 0}
+            {"option": "Matthan", "points": 500},
+            {"option": "Eleazar", "points": 0},
+            {"option": "Elihud", "points": 0},
+            {"option": "Akim", "points": 0}
         ],
         "points": 500,
         "label": "500"

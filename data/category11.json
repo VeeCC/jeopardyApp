@@ -1,59 +1,59 @@
 [
     {
-        "label": "Poetry",
-        "category":"Poetry"
+        "label": "Proverbs",
+        "category":"Proverbs"
     },
     {
-        "question": "What is better than \"weapons of war\"?",
+        "question": "Trust in the Lord with all your ___________ and lean not on your own understanding.",
         "answer": [
-            {"option": "Fame", "points": 0},
-            {"option": "Wisdom", "points": 100},
-            {"option": "Money", "points": 0},
-            {"option": "Beauty", "points": 0}
+            {"option": "mind", "points": 0},
+            {"option": "heart", "points": 100},
+            {"option": "strength", "points": 0},
+            {"option": "ways", "points": 0}
         ],
         "points": 100,
         "label": "100"
     },
     {
-        "question": "Who has God made \"a little lower than angels\"?",
+        "question": "The _____ of the Lord is the beginning of knowledge, but fools[c] despise wisdom and instruction.?",
         "answer": [
-            {"option": "Man", "points": 200},
-            {"option": "Jesus", "points": 0},
-            {"option": "The cherubim", "points": 0},
-            {"option": "The seraphim", "points": 0}
+            {"option": "fear", "points": 200},
+            {"option": "warning", "points": 0},
+            {"option": "love", "points": 0},
+            {"option": "obedience", "points": 0}
         ],
         "points": 200,
         "label": "200"
     },
     {
-        "question": "What is like \"a deep ditch\" and \"a narrow pit\"?",
+        "question": "____ is deceptive, and beauty is fleeting; but a woman who fears the Lord is to be praised.",
         "answer": [
-            {"option": "Prosperity", "points": 0},
-            {"option": "The road to life", "points": 0},
-            {"option": "An adulteress", "points": 300},
-            {"option": "Wisdom", "points": 0}
+            {"option": "Intellect", "points": 0},
+            {"option": "Appeal", "points": 0},
+            {"option": "Charm", "points": 300},
+            {"option": "Character", "points": 0}
         ],
         "points": 300,
         "label": "300"
     },
     {
-        "question": "\"He that blesseth his friend with a loud voice, rising early in the morning, it shall be counted a _______\" (Proverbs 27:14).",
+        "question": "Better to live on a corner of the roof, than share a house with a ____",
         "answer": [
-            {"option": "Delight to him", "points": 0},
-            {"option": "Curse to him", "points": 400},
-            {"option": "Honor to him", "points": 0},
-            {"option": "Bother to him", "points": 0}
+            {"option": "nagging", "points": 0},
+            {"option": "quarrelsome", "points": 400},
+            {"option": "difficult", "points": 0},
+            {"option": "petulant", "points": 0}
         ],
         "points": 400,
         "label": "400"
     },
     {
-        "question": "Who has two daughters that cry, \"Give, give\"?",
+        "question": "Anxiety weighs down the heart, but a kind _____ cheers it up.",
         "answer": [
-            {"option": "A horseleach", "points": 500},
-            {"option": "The grave", "points": 0},
-            {"option": "The fool", "points": 0},
-            {"option": "An adulteress", "points": 0}
+            {"option": "word", "points": 500},
+            {"option": "act", "points": 0},
+            {"option": "friend", "points": 0},
+            {"option": "deed", "points": 0}
         ],
         "points": 500,
         "label": "500"

@@ -1,59 +1,59 @@
 [
     {
-        "label": "Mosaic Law",
+        "label": "10 Commandments",
         "category":"Mosaic Law"
     },
     {
-        "question": "How many days were the Israelites to eat unleavened bread as a memorial??",
+        "question": "Which is NOT one of the Ten Commandments?",
         "answer": [
-            {"option": "20", "points": 0},
-            {"option": "10", "points": 0},
-            {"option": "14", "points": 0},
-            {"option": "7", "points": 100}
+            {"option": "You shall not murder.", "points": 0},
+            {"option": "You shall not commit adultery.", "points": 0},
+            {"option": "You shall not steal.", "points": 0},
+            {"option": "You shall not eat meat on the Sabbath.", "points": 100}
         ],
         "points": 100,
         "label": "100"
     },
     {
-        "question": "What was written upon the two onyx stones that were to be placed upon the shoulders of the high priest's ephod?",
+        "question": "I am the ____, who brought you out of Egypt, out of the land of slavery. You shall have no other gods before me.",
         "answer": [
-            {"option": "The sons of Aaron the priest", "points": 0},
-            {"option": "Holiness unto the LORD", "points": 0},
-            {"option": "The name of the LORD", "points": 0},
-            {"option": "The names of the 12 tribes", "points": 200}
+            {"option": "God your forefather", "points": 0},
+            {"option": "God of Moses", "points": 0},
+            {"option": "Lord your Savior", "points": 0},
+            {"option": "Lord your God", "points": 200}
         ],
         "points": 200,
         "label": "200"
     },
     {
-        "question": "Those who served `graven images` would be cursed by the LORD God unto what number of generations?",
+        "question": "In what form did God appear to Moses when he delivered the Ten Commandments?",
         "answer": [
-            {"option": "5th and 6th", "points": 0},
-            {"option": "1st and 2nd", "points": 300},
-            {"option": "3rd and 4th", "points": 0},
-            {"option": "Forever", "points": 0}
+            {"option": "A burning bush", "points": 0},
+            {"option": "A cloud of smoke and fire", "points": 300},
+            {"option": "A very bright light", "points": 0},
+            {"option": "An angel", "points": 0}
         ],
         "points": 300,
         "label": "300"
     },
     {
-        "question": "What two animals were permitted to be eaten at the Passover?",
+        "question": "What became of the original set of stone tablets inscribed with the commandments?",
         "answer": [
-            {"option": "Not tow, only sheep", "points": 0},
-            {"option": "Lamb and goat", "points": 0},
-            {"option": "Sheep and lamb", "points": 0},
-            {"option": "Sheep and goat", "points": 400}
+            {"option": "They were placed in the Ark of the Covenant", "points": 0},
+            {"option": "Israelites hid them", "points": 0},
+            {"option": "They were placed in the Temple", "points": 0},
+            {"option": "Moses threw them down and broke them", "points": 400}
         ],
         "points": 400,
         "label": "400"
     },
     {
-        "question": "Within the tabernacle, the lampstand was placed toward the ___, while the table of shewbread was placed opposite it, toward the ___.",
+        "question": "When the ten commandments were given, the Israelites ____",
         "answer": [
-            {"option": "south, north", "points": 500},
-            {"option": "north, south", "points": 0},
-            {"option": "east, west", "points": 0},
-            {"option": "west, east", "points": 0}
+            {"option": "saw the thunder and lightning and heard the trumpet and saw the mountain in smoke,they trembled with fear.", "points": 500},
+            {"option": "saw Moses in the mountains and asked Aaron to lead them.", "points": 0},
+            {"option": "saw Moses in the mountains and rejoiced.", "points": 0},
+            {"option": "saw the thunder and lightning and heard the trumpet and saw the mountain in smoke, they bowed down in reverence.", "points": 0}
         ],
         "points": 500,
         "label": "500"
