@@ -26,34 +26,34 @@
         "label": "200"
     },
     {
-        "question": "____ is deceptive, and beauty is fleeting; but a woman who fears the Lord is to be praised.",
+        "question": "Better to live on a corner of the roof, than share a house with a ____",
         "answer": [
-            {"option": "Intellect", "points": 0},
-            {"option": "Appeal", "points": 0},
-            {"option": "Charm", "points": 300},
-            {"option": "Character", "points": 0}
+            {"option": "nagging", "points": 0},
+            {"option": "quarrelsome", "points": 300},
+            {"option": "difficult", "points": 0},
+            {"option": "petulant", "points": 0}
         ],
         "points": 300,
         "label": "300"
     },
     {
-        "question": "Better to live on a corner of the roof, than share a house with a ____",
+        "question": "Anxiety weighs down the heart, but a kind _____ cheers it up.",
         "answer": [
-            {"option": "nagging", "points": 0},
-            {"option": "quarrelsome", "points": 400},
-            {"option": "difficult", "points": 0},
-            {"option": "petulant", "points": 0}
+            {"option": "word", "points": 400},
+            {"option": "act", "points": 0},
+            {"option": "friend", "points": 0},
+            {"option": "deed", "points": 0}
         ],
         "points": 400,
         "label": "400"
     },
     {
-        "question": "Anxiety weighs down the heart, but a kind _____ cheers it up.",
+        "question": "Stern discipline awaits anyone who leaves the path; the one who hates correction will ____",
         "answer": [
-            {"option": "word", "points": 500},
-            {"option": "act", "points": 0},
-            {"option": "friend", "points": 0},
-            {"option": "deed", "points": 0}
+            {"option": "die", "points": 500},
+            {"option": "be shamed", "points": 0},
+            {"option": "be brought low", "points": 0},
+            {"option": "perish", "points": 0}
         ],
         "points": 500,
         "label": "500"

@@ -15,26 +15,15 @@
         "label": "100"
     },
     {
-        "question": "Who wrote most of the books in the New Testament?",
-        "answer": [
-            {"option": "Chirs", "points": 0},
-            {"option": "John", "points": 0},
-            {"option": "Mark", "points": 0},
-            {"option": "Paul", "points": 200}
-        ],
-        "points": 200,
-        "label": "200"
-    },
-    {
         "question": "Which gospel records the fewest of the miracles performed by Jesus?",
         "answer": [
-            {"option": "Matthew", "points": 300},
+            {"option": "Matthew", "points": 200},
             {"option": "Mark", "points": 0},
             {"option": "Luke", "points": 0},
             {"option": "John", "points": 0}
         ],
-        "points": 300,
-        "label": "300"
+        "points": 200,
+        "label": "200"
     },
     {
         "question": "On what island was Paul shipwrecked as he made his way to Rome?",
@@ -48,12 +37,23 @@
         "label": "400"
     },
     {
-        "question": "During Paul’s third missionary journey, roughly for how long did he minister in the school of Tyrannus at Ephesus?",
+        "question": "The last line of James 4 says \"If anyone, then, knows the good they ought to do and doesn’t do it, it is ____ for them.\"",
         "answer": [
-            {"option": "3 years", "points": 0},
-            {"option": "2 years", "points": 500},
-            {"option": "1 and a half year", "points": 0},
-            {"option": "1 year", "points": 0}
+            {"option": "a hindrance", "points": 0},
+            {"option": "a burden", "points": 0},
+            {"option": "folly", "points": 0},
+            {"option": "sin", "points": 400}
+        ],
+        "points": 400,
+        "label": "400"
+    },
+    {
+        "question": "Here is a trustworthy saying: Whoever aspires to be an overseer desires a noble task. Now the overseer is to be above reproach, faithful to his wife, temperate, self-controlled, respectable,____, able to teach, not given to drunkenness, not violent but gentle, not quarrelsome, not a lover of money. He must manage his own family well and see that his children obey him, and he must do so in a manner worthy of full _____. (1Tim3)",
+        "answer": [
+            {"option": "humble, approval", "points": 0},
+            {"option": "hospitable, respect", "points": 500},
+            {"option": "steadfast, admiration", "points": 0},
+            {"option": "bold, reverence", "points": 0}
         ],
         "points": 500,
         "label": "500"

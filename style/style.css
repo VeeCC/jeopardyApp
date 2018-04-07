@@ -151,6 +151,10 @@ body {
     text-align: center;
 }
 
+.questionContent.small {
+    font-size: 1.8em;
+}
+
 .optionButton {
     font-family: lato;
     font-size: 24px;
@@ -161,6 +165,10 @@ body {
     text-align: center;
     padding: 10px 6px 10px 6px;
     cursor: pointer;
+}
+
+.optionButton.small {
+    font-size: 20px;
 }
 
 .optionButton:hover {

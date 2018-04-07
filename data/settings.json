@@ -1,6 +1,6 @@
 {
     "games": [1,2,3,4,5,6],
-    "title": "Jeopardy Game",
+    "title": "Jeopardy",
     "team1": "Knows everything",
     "team2": "Never win, never give up",
     "regularTime": 45,

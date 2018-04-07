@@ -2,9 +2,10 @@
 
     <div ng-if="!$ctrl.tempEndGame && !$ctrl.resultMessage">
         <span class="questionTitle">{{$ctrl.question.category}} {{$ctrl.question.points}}</span>
-        <div class="questionContent">{{$ctrl.question.question}}</div>
+        <div class="questionContent" ng-class="{'small':$ctrl.question.question.length>100}">{{$ctrl.question.question}}</div>
     
-        <div class="optionButton" ng-repeat="o in $ctrl.question.answer" ng-click="$ctrl.answer(o.points)">
+        <div class="optionButton"  ng-class="{'small':o.option.length > 25}"
+             ng-repeat="o in $ctrl.question.answer" ng-click="$ctrl.answer(o.points)">
             {{o.option}}
         </div>
     </div>  

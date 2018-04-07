@@ -31,29 +31,29 @@
             {"option": "A burning bush", "points": 0},
             {"option": "A cloud of smoke and fire", "points": 300},
             {"option": "A very bright light", "points": 0},
-            {"option": "An angel", "points": 0}
+            {"option": "A cloud of light and fire", "points": 0}
         ],
         "points": 300,
         "label": "300"
     },
     {
-        "question": "What became of the original set of stone tablets inscribed with the commandments?",
+        "question": "When the ten commandments were given, the Israelites",
         "answer": [
-            {"option": "They were placed in the Ark of the Covenant", "points": 0},
-            {"option": "Israelites hid them", "points": 0},
-            {"option": "They were placed in the Temple", "points": 0},
-            {"option": "Moses threw them down and broke them", "points": 400}
+            {"option": "saw the thunder and lightning and heard the trumpet and saw the mountain in smoke,they trembled with fear.", "points": 400},
+            {"option": "saw Moses in the mountains and asked Aaron to lead them.", "points": 0},
+            {"option": "saw Moses in the mountains and rejoiced.", "points": 0},
+            {"option": "saw the thunder and lightning and heard the trumpet and saw the mountain in smoke, they bowed down in reverence.", "points": 0}
         ],
         "points": 400,
         "label": "400"
     },
     {
-        "question": "When the ten commandments were given, the Israelites ____",
+        "question": "Moses said to the people (after given the ten commandments), \"Do not be afraid. God has come to _____ you, so that the fear of God will be with you to keep you from sinning.\"",
         "answer": [
-            {"option": "saw the thunder and lightning and heard the trumpet and saw the mountain in smoke,they trembled with fear.", "points": 500},
-            {"option": "saw Moses in the mountains and asked Aaron to lead them.", "points": 0},
-            {"option": "saw Moses in the mountains and rejoiced.", "points": 0},
-            {"option": "saw the thunder and lightning and heard the trumpet and saw the mountain in smoke, they bowed down in reverence.", "points": 0}
+            {"option": "rescue", "points": 0},
+            {"option": "help", "points": 0},
+            {"option": "test", "points": 500},
+            {"option": "be with", "points": 0}
         ],
         "points": 500,
         "label": "500"
